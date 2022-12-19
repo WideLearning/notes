@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Using obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Using obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Using obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Using obsidian.md"
               }
             }
           },
@@ -147,11 +147,11 @@
   },
   "active": "22056ef545b9deff",
   "lastOpenFiles": [
-    "Using obsidian.md",
     "README.md",
+    "Using obsidian.md",
+    "Excalidraw/example.excalidraw.md",
     "Images/plugins.png",
     "Excalidraw/Drawing 2022-12-19 15.28.06.excalidraw.md",
-    "Excalidraw/example.excalidraw.md",
     "().md",
     "_notion-like-tables/table-id-mnelSf.md"
   ]

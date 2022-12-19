@@ -1,8 +1,7 @@
 # Using obsidian
 
 ## Basics
-All Obsidian commands are available in the menu opened by `ctrl+p`.
-All files are in the `ctrl+o` menu.
+All Obsidian commands are available in the command menu opened by `ctrl+p`. Also you can find files in the `ctrl+o` menu.
 
 ## Plugins
 
@@ -27,6 +26,9 @@ Ensures that filename matches the first H1 heading.
 ### Note Auto Creator
 You can type "@" and then the name of the note you want to make a link for. If it exists already, it will be suggested, otherwise a new note with that name will be created.
 
+### Obsidian Git
+Just type "git" in command menu to see all the commands.
+
 ### Quick Latex for Obsidian
 Obsidian support Latex by default, this plugin provides some autocompletions. Also you can add custom snippets in settings.
-$$ a \overset{b}{\underset{c}=} d$$
+$$a \overset{b}{\underset{c}=} d$$

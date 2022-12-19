@@ -1,6 +1,6 @@
 # README
 
-This notes are supposed to be opened in Obsidian, though most of them are just Markdown files anyway.
+These notes are supposed to be opened in Obsidian, though most of them are just Markdown files anyway.
 
 Entry points:
 - [[Using obsidian]]
