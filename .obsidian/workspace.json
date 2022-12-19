@@ -38,8 +38,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian inference.md",
+                "file": "README.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian inference.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian inference.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian inference.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,11 +175,11 @@
   },
   "active": "2042e699d792ee20",
   "lastOpenFiles": [
+    "Bayesian inference.md",
     "terms commonly used in Bayesian statistics.md",
     "posterior distribution.md",
     "prior distribution.md",
     "Bayes' theorem.md",
-    "Bayesian inference.md",
     "latent variables.md",
     "README.md",
     "Obsidian.md",
