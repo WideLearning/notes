@@ -1,12 +1,14 @@
-# Using obsidian
+# Obsidian
 
 ## Basics
+
 All Obsidian commands are available in the command menu opened by `ctrl+p`. Also you can find files in the `ctrl+o` menu.
 
 ## Plugins
 
 There are a lot of community plugins, here are some examples:
-![[plugins.png]]
+![[plugins.png|300x300]]
+
 ### Advanced Tables
 Not very advanced actually, simplifies editing Markdown tables, including pasting CSV directly.
 | x   | y   |
@@ -17,8 +19,8 @@ Not very advanced actually, simplifies editing Markdown tables, including pastin
 
 
 ### [Excalidraw](https://www.youtube.com/channel/UCC0gns4a9fhVkGkngvSumAQ)
-Vector graphics integrated into Obsidian.
-![[example.excalidraw]]
+Vector graphics integrated into Obsidian. Also note, that you can set the size when you embed an image (both common image formats and Excalidraw) by adding `|{width}x{height}` as done here:
+![[example.excalidraw|500x300]]
 
 ### Filename Heading Sync
 Ensures that filename matches the first H1 heading.
