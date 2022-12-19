@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "1fe3628617024314",
+    "type": "split",
+    "children": [
+      {
+        "id": "54d873397183edcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22056ef545b9deff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4190093593bfdcbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f2a1626c479e6e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "060800e39bc87c14",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b55bce15613a5904",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12c4cdaee30957da",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "dd1101b22747dc45",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec6feb8dca8a0192",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6198ccc5fc111a5c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba8dd87d6d428e5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92396b3dcdfbd0d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb3e95da1da62eaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "1b66ddb88540497b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "22056ef545b9deff",
+  "lastOpenFiles": [
+    "Using obsidian.md",
+    "README.md",
+    "Images/plugins.png",
+    "Excalidraw/Drawing 2022-12-19 15.28.06.excalidraw.md",
+    "Excalidraw/example.excalidraw.md",
+    "().md",
+    "_notion-like-tables/table-id-mnelSf.md"
+  ]
+}
