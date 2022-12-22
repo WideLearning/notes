@@ -34,3 +34,5 @@ Just type "git" in command menu to see all the commands.
 ### Quick Latex for Obsidian
 Obsidian support Latex by default, this plugin provides some autocompletions. Also you can add custom snippets in settings.
 $$a \overset{b}{\underset{c}=} d$$
+### Extended MathJax
+Adds support for preamble and allows including some LaTeX packages, e.g. `physics`.

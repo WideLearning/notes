@@ -4,49 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "54d873397183edcb",
+        "id": "631d3ca4550ad13f",
         "type": "tabs",
         "children": [
           {
-            "id": "22056ef545b9deff",
+            "id": "1dc5981aa3e353b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terms commonly used in Bayesian statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eeba22f2289ac2a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prior distribution.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2042e699d792ee20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Obsidian.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Obsidian.md"
               }
             }
           },
@@ -173,17 +146,29 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2042e699d792ee20",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1dc5981aa3e353b8",
   "lastOpenFiles": [
-    "Bayesian inference.md",
+    "2022-12-21.md",
     "terms commonly used in Bayesian statistics.md",
-    "posterior distribution.md",
     "prior distribution.md",
+    "README.md",
+    "Bayesian inference.md",
+    "posterior distribution.md",
     "Bayes' theorem.md",
     "latent variables.md",
-    "README.md",
     "Obsidian.md",
-    "Excalidraw/example.excalidraw.md",
-    "Images/plugins.png"
+    "Excalidraw/example.excalidraw.md"
   ]
 }
