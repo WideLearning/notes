@@ -35,3 +35,24 @@ Then we can finally apply the [[Bayes' theorem]] and get a [[posterior distribut
 $$ p_{C \mid B}(c) = \frac{p_{C}(c)P(B \mid C = c)}{P(B)} = \frac{0.25 \times \frac{c}{3}}{0.5} = \frac{c}{6} $$
 Now that we know the updated $p_{C}(c)$ we can calculate something useful about $c$.
 For example, $\mathbb{E}(c) = \frac{7}{3}$ and mode is $c = 3$. 
+
+## Exercises
+
+### Task 1
+You have a coin that goes heads with an unknown probability $p$, you have tossed it five times and got the following outcomes: 011000, where 1 denotes heads and 0 denotes tails. 
+- Find the posterior distribution of $p$. 
+- Find the posterior distribution of the next throw (if you toss it one more time).
+
+#### Task 2
+- Implement a function that calculates pdf of posterior in a given point for [[multilayer_model.canvas]].
+- Find its maximum, see if it matches your intuition about the model.
+
+Note: if $X \sim \mathrm{Beta}(a, b)$ the unnormalized pdf is simply $f_{X}(x) = x^{a-1}(1-x)^{b-1}$ (and the normalizing constant is $B(a, b)$, from where the distribution got its name).
+
+#### Task 3
+Inadequate model leads to inadequate inferences, let's see it on a simple regression task.
+You have $x = [1, 2, 3, 4, 5], y = [1, 4, 9, 16, 25]$. Also you have $x' = [6, 7, 8]$ and want to estimate the corresponding $y'$. Consider three models:
+1. $y \sim \mathcal{N}(\theta_{0} + \theta_{1}x, 1)$
+2. $y \sim \mathcal{N}(\theta_{0} + \theta_{1}x + \theta_{2}x^{2}, 1)$
+3. $y \sim \mathcal{N}(\exp(\theta_{0} + \theta_{1}x), 1)$
+For each of them find $\theta = \arg\max \prod_{i=0}^{4} P(y_{i} \mid x_{i})$, then plot $P(y'_{i} \mid x'_{i})$ for $i \in 0..2$.

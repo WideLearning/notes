@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"0f0b59e8fe448ba5","x":-1100,"y":-460,"width":250,"height":162,"color":"6","type":"text","text":"$p_{dr}$: probability of drain after dry weather\n$$p_{dr} \\sim \\mathrm{Beta}(1, 2)$$"},
+		{"id":"3e0bec2b5fe5cfd9","x":-1100,"y":-278,"width":250,"height":142,"color":"6","type":"text","text":"$p_{rr}$: probability of rain after rain\n$$p_{rr} \\sim \\mathrm{Beta}(2, 1)$$"},
+		{"id":"e40d2e81e2a888a8","x":240,"y":-362,"width":380,"height":128,"color":"5","type":"text","text":"$R_6$: rain on saturday\n$$R_6 \\sim \\mathrm{Bernoulli}\\Big(P(R_5)(p_{rr} - p_{dr}) + p_{dr}\\Big)$$"},
+		{"id":"f65bfc75932a26dc","x":240,"y":-36,"width":380,"height":140,"color":"3","type":"text","text":"$N_5$: i notice rain on friday\n$$P(N_5\\mid R_5) = 0.95$$\n$$P(N_5\\mid \\bar R_5) = 0.0001$$"},
+		{"id":"1e5b5f3f213d50ca","x":-220,"y":-196,"width":380,"height":120,"color":"6","type":"text","text":"$R_5$: rain on friday\n$$R_6 \\sim \\mathrm{Bernoulli}\\Big(P(R_5)(p_{rr} - p_{dr}) + p_{dr}\\Big)$$"},
+		{"id":"4e2983f6046ec556","x":-850,"y":104,"width":240,"height":180,"color":"6","type":"text","text":"$p_r$: probability of rain\n$$p_r = p_r p_{rr} + (1 - p_r) p_{dr}$$\n$$p_r = \\frac{p_{dr}}{1 + p_{dr} - p_{rr}}$$"},
+		{"id":"b10ca2901e2bfd1f","x":-540,"y":-5,"width":228,"height":109,"color":"6","type":"text","text":"$R_4$: rain on thursday\n$$R_{4} \\sim \\mathrm{Bernoulli}(p_r)$$"},
+		{"id":"de7764e416e39950","x":240,"y":144,"width":380,"height":140,"color":"3","type":"text","text":"$N_5$: i notice rain on thursday\n$$P(N_5\\mid R_4) = 0.95$$\n$$P(N_5\\mid \\bar R_4) = 0.0001$$"},
+		{"id":"ffdd5e84c4005856","x":700,"y":-8,"width":96,"height":84,"color":"1","type":"text","text":"$$N_5 = 1$$"},
+		{"id":"0ecd0d26f5eb4e42","x":700,"y":172,"width":96,"height":84,"color":"1","type":"text","text":"$$N_4 = 1$$"}
+	],
+	"edges":[
+		{"id":"4fd9582412eafcbc","fromNode":"1e5b5f3f213d50ca","fromSide":"right","toNode":"e40d2e81e2a888a8","toSide":"left"},
+		{"id":"7e5172ce384b5b82","fromNode":"0f0b59e8fe448ba5","fromSide":"right","toNode":"4e2983f6046ec556","toSide":"left"},
+		{"id":"3e87f30f683a5b08","fromNode":"3e0bec2b5fe5cfd9","fromSide":"right","toNode":"4e2983f6046ec556","toSide":"left"},
+		{"id":"a541a26296895c5a","fromNode":"0f0b59e8fe448ba5","fromSide":"right","toNode":"e40d2e81e2a888a8","toSide":"left"},
+		{"id":"58e7e62e3dfff188","fromNode":"3e0bec2b5fe5cfd9","fromSide":"right","toNode":"e40d2e81e2a888a8","toSide":"left"},
+		{"id":"75df824140f0c823","fromNode":"1e5b5f3f213d50ca","fromSide":"right","toNode":"f65bfc75932a26dc","toSide":"left"},
+		{"id":"ec92d4afe934e795","fromNode":"4e2983f6046ec556","fromSide":"right","toNode":"b10ca2901e2bfd1f","toSide":"left"},
+		{"id":"de4515e34df9c040","fromNode":"0f0b59e8fe448ba5","fromSide":"right","toNode":"1e5b5f3f213d50ca","toSide":"left"},
+		{"id":"d74ecaaca7e03bda","fromNode":"3e0bec2b5fe5cfd9","fromSide":"right","toNode":"1e5b5f3f213d50ca","toSide":"left"},
+		{"id":"bfd0e948efabf0aa","fromNode":"b10ca2901e2bfd1f","fromSide":"right","toNode":"1e5b5f3f213d50ca","toSide":"left"},
+		{"id":"0b0826252e922806","fromNode":"b10ca2901e2bfd1f","fromSide":"right","toNode":"de7764e416e39950","toSide":"left"},
+		{"id":"7962225638e226cd","fromNode":"f65bfc75932a26dc","fromSide":"right","toNode":"ffdd5e84c4005856","toSide":"left"},
+		{"id":"6bc24f7c1e3f0940","fromNode":"de7764e416e39950","fromSide":"right","toNode":"0ecd0d26f5eb4e42","toSide":"left"}
+	]
+}

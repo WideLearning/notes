@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "631d3ca4550ad13f",
+        "id": "1829a6f6dc657bac",
         "type": "tabs",
         "children": [
           {
-            "id": "1dc5981aa3e353b8",
+            "id": "c303ec1a4ab6730a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,17 +149,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1dc5981aa3e353b8",
+  "active": "c303ec1a4ab6730a",
   "lastOpenFiles": [
-    "2022-12-21.md",
     "terms commonly used in Bayesian statistics.md",
+    "Images/multilayer_model.canvas",
+    "Bayesian inference.md",
+    "Obsidian.md",
+    "2022-12-21.md",
     "prior distribution.md",
     "README.md",
-    "Bayesian inference.md",
     "posterior distribution.md",
     "Bayes' theorem.md",
-    "latent variables.md",
-    "Obsidian.md",
-    "Excalidraw/example.excalidraw.md"
+    "latent variables.md"
   ]
 }
