@@ -3,6 +3,11 @@
 ## Topics
 
 - [[terms commonly used in Bayesian statistics]]
+- [[bayesian update]]
+- [[merging prior and likelihood]]
+- [[prior vs data]]
+- [[inference methods]]
+- [[Pyro]] (not finished)
 
 ## Books about it
 

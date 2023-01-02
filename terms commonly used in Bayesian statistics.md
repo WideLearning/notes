@@ -15,7 +15,7 @@ Variable that we don't observe directly (and therefore have some uncertainty abo
 Here the only latent variable is $C$, and it is also the variable that we will estimate.
 
 
-In Bayesian philosophy we never start from scratch. If we want to find out something about the distribution of the latent variables, we must know something about it distribution beforehand. This distribution of latents, which we select before (ideally) we even got any data, is called a [[prior distribution]] or simply a prior.
+In Bayesian philosophy we never start from scratch. If we want to find out something about the distribution of the latent variables, we must know something about this distribution beforehand. This distribution of latents, which we select before (ideally) we even got any data, is called a [[prior distribution]] or simply a prior.
 
 Luckily, we don't need to know it exactly, even a crude approximation will be enough, if we have enough data to refine it. In some sense it is similar to Newton's method, where we also have to provide the initial approximation of the answer.
 
@@ -40,8 +40,9 @@ For example, $\mathbb{E}(c) = \frac{7}{3}$ and mode is $c = 3$.
 
 ### Task 1
 You have a coin that goes heads with an unknown probability $p$, you have tossed it five times and got the following outcomes: 011000, where 1 denotes heads and 0 denotes tails. 
+- What is prior, data and posterior in this example?
 - Find the posterior distribution of $p$. 
-- Find the posterior distribution of the next throw (if you toss it one more time).
+- Find the posterior distribution of the next throw (probability of heads if you toss it one more time).
 
 #### Task 2
 - Implement a function that calculates pdf of posterior in a given point for [[multilayer_model.canvas]].

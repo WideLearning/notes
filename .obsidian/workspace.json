@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1829a6f6dc657bac",
+        "id": "caf07b6d4e2ebecd",
         "type": "tabs",
         "children": [
           {
-            "id": "c303ec1a4ab6730a",
+            "id": "727cea6d443f7939",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -149,17 +149,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c303ec1a4ab6730a",
+  "active": "727cea6d443f7939",
   "lastOpenFiles": [
-    "terms commonly used in Bayesian statistics.md",
-    "Images/multilayer_model.canvas",
     "Bayesian inference.md",
-    "Obsidian.md",
-    "2022-12-21.md",
-    "prior distribution.md",
-    "README.md",
-    "posterior distribution.md",
-    "Bayes' theorem.md",
-    "latent variables.md"
+    "inference methods.md",
+    "variational inference.md",
+    "MCMC sampling.md",
+    "Metropolis-Hastings algorithm.md",
+    "terms commonly used in Bayesian statistics.md",
+    "rejection sampling.md",
+    "Images/rejection sampling.excalidraw.md",
+    "grid approximation.md",
+    "Bayes' theorem.md"
   ]
 }
