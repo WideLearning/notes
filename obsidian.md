@@ -1,4 +1,4 @@
-# Obsidian
+# obsidian
 
 ## Basics
 

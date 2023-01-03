@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "caf07b6d4e2ebecd",
+        "id": "b5aa3d9cb6ae3132",
         "type": "tabs",
         "children": [
           {
-            "id": "727cea6d443f7939",
+            "id": "d199ee01196afd71",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "dual form of linear transformation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dual form of linear transformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dual form of linear transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dual form of linear transformation.md"
+              }
             }
           },
           {
@@ -149,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "727cea6d443f7939",
+  "active": "d199ee01196afd71",
   "lastOpenFiles": [
+    "deep learning.md",
+    "dual form of linear transformation.md",
+    "dot product attention.md",
+    "attention.md",
+    "softmax attention.md",
+    "obsidian.md",
+    "README.md",
     "Bayesian inference.md",
     "inference methods.md",
-    "variational inference.md",
-    "MCMC sampling.md",
-    "Metropolis-Hastings algorithm.md",
-    "terms commonly used in Bayesian statistics.md",
-    "rejection sampling.md",
-    "Images/rejection sampling.excalidraw.md",
-    "grid approximation.md",
-    "Bayes' theorem.md"
+    "variational inference.md"
   ]
 }
