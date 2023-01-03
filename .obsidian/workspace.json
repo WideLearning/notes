@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dual form of linear transformation.md",
+                "file": "duality of few-shot learning and fine-tuning in transformers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dual form of linear transformation.md",
+                "file": "duality of few-shot learning and fine-tuning in transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dual form of linear transformation.md",
+                "file": "duality of few-shot learning and fine-tuning in transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dual form of linear transformation.md"
+                "file": "duality of few-shot learning and fine-tuning in transformers.md"
               }
             }
           },
@@ -161,15 +160,15 @@
   },
   "active": "d199ee01196afd71",
   "lastOpenFiles": [
-    "deep learning.md",
+    "terms commonly used in Bayesian statistics.md",
+    "likelihood function.md",
+    "Bayes' theorem.md",
+    "duality of few-shot learning and fine-tuning in transformers.md",
     "dual form of linear transformation.md",
     "dot product attention.md",
+    "deep learning.md",
     "attention.md",
-    "softmax attention.md",
-    "obsidian.md",
-    "README.md",
-    "Bayesian inference.md",
-    "inference methods.md",
-    "variational inference.md"
+    "scaled softmax attention.md",
+    "obsidian.md"
   ]
 }

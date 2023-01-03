@@ -1,0 +1,258 @@
+{
+  "settings": {
+    "countType": "word",
+    "countType2": "none",
+    "countType3": "none",
+    "abbreviateDescriptions": false,
+    "alignment": "inline",
+    "debugMode": false,
+    "wordsPerPage": 300,
+    "charsPerPage": 1500,
+    "pageCountType": "ByWords"
+  },
+  "cachedCounts": {
+    "scaled softmax attention.md": {
+      "noteCount": 1,
+      "wordCount": 13,
+      "pageCount": 0.043333333333333335,
+      "characterCount": 130,
+      "nonWhitespaceCharacterCount": 117,
+      "createdDate": 1672748290852,
+      "modifiedDate": 1672758681302
+    },
+    "attention.md": {
+      "noteCount": 1,
+      "wordCount": 129,
+      "pageCount": 0.43,
+      "characterCount": 889,
+      "nonWhitespaceCharacterCount": 758,
+      "createdDate": 1672747540593,
+      "modifiedDate": 1672758628661
+    },
+    "variational inference.md": {
+      "noteCount": 1,
+      "wordCount": 63,
+      "pageCount": 0.21,
+      "characterCount": 414,
+      "nonWhitespaceCharacterCount": 350,
+      "createdDate": 1672685815448,
+      "modifiedDate": 1672690456511
+    },
+    "terms commonly used in Bayesian statistics.md": {
+      "noteCount": 1,
+      "wordCount": 614,
+      "pageCount": 2.046666666666667,
+      "characterCount": 3629,
+      "nonWhitespaceCharacterCount": 2992,
+      "createdDate": 1671464463481,
+      "modifiedDate": 1672677453507
+    },
+    "rejection sampling.md": {
+      "noteCount": 1,
+      "wordCount": 456,
+      "pageCount": 1.52,
+      "characterCount": 2831,
+      "nonWhitespaceCharacterCount": 2367,
+      "createdDate": 1672686029447,
+      "modifiedDate": 1672689641065
+    },
+    "prior vs data.md": {
+      "noteCount": 1,
+      "wordCount": 196,
+      "pageCount": 0.6533333333333333,
+      "characterCount": 1124,
+      "nonWhitespaceCharacterCount": 924,
+      "createdDate": 1672680597859,
+      "modifiedDate": 1672681446094
+    },
+    "prior distribution.md": {
+      "noteCount": 1,
+      "wordCount": 83,
+      "pageCount": 0.27666666666666667,
+      "characterCount": 508,
+      "nonWhitespaceCharacterCount": 422,
+      "createdDate": 1671465115205,
+      "modifiedDate": 1671468492035
+    },
+    "posterior distribution.md": {
+      "noteCount": 1,
+      "wordCount": 72,
+      "pageCount": 0.24,
+      "characterCount": 462,
+      "nonWhitespaceCharacterCount": 386,
+      "createdDate": 1671468902804,
+      "modifiedDate": 1671469015533
+    },
+    "obsidian.md": {
+      "noteCount": 1,
+      "wordCount": 219,
+      "pageCount": 0.73,
+      "characterCount": 1374,
+      "nonWhitespaceCharacterCount": 1129,
+      "createdDate": 1671455500431,
+      "modifiedDate": 1672747163260
+    },
+    "merging prior and likelihood.md": {
+      "noteCount": 1,
+      "wordCount": 230,
+      "pageCount": 0.7666666666666667,
+      "characterCount": 1248,
+      "nonWhitespaceCharacterCount": 1009,
+      "createdDate": 1672678306652,
+      "modifiedDate": 1672680508102
+    },
+    "likelihood function.md": {
+      "noteCount": 1,
+      "wordCount": 60,
+      "pageCount": 0.2,
+      "characterCount": 344,
+      "nonWhitespaceCharacterCount": 284,
+      "createdDate": 1671467059346,
+      "modifiedDate": 1672762998536
+    },
+    "latent variables.md": {
+      "noteCount": 1,
+      "wordCount": 50,
+      "pageCount": 0.16666666666666666,
+      "characterCount": 318,
+      "nonWhitespaceCharacterCount": 266,
+      "createdDate": 1671467650885,
+      "modifiedDate": 1671468181295
+    },
+    "inference methods.md": {
+      "noteCount": 1,
+      "wordCount": 92,
+      "pageCount": 0.30666666666666664,
+      "characterCount": 638,
+      "nonWhitespaceCharacterCount": 544,
+      "createdDate": 1672681612908,
+      "modifiedDate": 1672685816628
+    },
+    "grid approximation.md": {
+      "noteCount": 1,
+      "wordCount": 54,
+      "pageCount": 0.18,
+      "characterCount": 351,
+      "nonWhitespaceCharacterCount": 296,
+      "createdDate": 1672685763684,
+      "modifiedDate": 1672685973078
+    },
+    "duality of few-shot learning and fine-tuning in transformers.md": {
+      "noteCount": 1,
+      "wordCount": 521,
+      "pageCount": 1.7366666666666666,
+      "characterCount": 3432,
+      "nonWhitespaceCharacterCount": 2901,
+      "createdDate": 1672753573529,
+      "modifiedDate": 1672762533866
+    },
+    "dual form of linear transformation.md": {
+      "noteCount": 1,
+      "wordCount": 479,
+      "pageCount": 1.5966666666666667,
+      "characterCount": 3250,
+      "nonWhitespaceCharacterCount": 2762,
+      "createdDate": 1672747276577,
+      "modifiedDate": 1672761489610
+    },
+    "dot product attention.md": {
+      "noteCount": 1,
+      "wordCount": 96,
+      "pageCount": 0.32,
+      "characterCount": 659,
+      "nonWhitespaceCharacterCount": 561,
+      "createdDate": 1672747490896,
+      "modifiedDate": 1672758542396
+    },
+    "deep learning.md": {
+      "noteCount": 1,
+      "wordCount": 31,
+      "pageCount": 0.10333333333333333,
+      "characterCount": 195,
+      "nonWhitespaceCharacterCount": 164,
+      "createdDate": 1672747158476,
+      "modifiedDate": 1672758532848
+    },
+    "bayesian update.md": {
+      "noteCount": 1,
+      "wordCount": 181,
+      "pageCount": 0.6033333333333334,
+      "characterCount": 1116,
+      "nonWhitespaceCharacterCount": 932,
+      "createdDate": 1672583851956,
+      "modifiedDate": 1672678242059
+    },
+    "README.md": {
+      "noteCount": 1,
+      "wordCount": 30,
+      "pageCount": 0.1,
+      "characterCount": 187,
+      "nonWhitespaceCharacterCount": 156,
+      "createdDate": 1671460731608,
+      "modifiedDate": 1672747163308
+    },
+    "Pyro.md": {
+      "noteCount": 1,
+      "wordCount": 163,
+      "pageCount": 0.5433333333333333,
+      "characterCount": 1617,
+      "nonWhitespaceCharacterCount": 1373,
+      "createdDate": 1671875919071,
+      "modifiedDate": 1671876013293
+    },
+    "Metropolis-Hastings algorithm.md": {
+      "noteCount": 1,
+      "wordCount": 308,
+      "pageCount": 1.0266666666666666,
+      "characterCount": 2030,
+      "nonWhitespaceCharacterCount": 1716,
+      "createdDate": 1672689673094,
+      "modifiedDate": 1672690311937
+    },
+    "MCMC sampling.md": {
+      "noteCount": 1,
+      "wordCount": 59,
+      "pageCount": 0.19666666666666666,
+      "characterCount": 396,
+      "nonWhitespaceCharacterCount": 337,
+      "createdDate": 1672685806680,
+      "modifiedDate": 1672689681910
+    },
+    "Images/rejection sampling.excalidraw.md": {
+      "noteCount": 1,
+      "wordCount": 1137,
+      "pageCount": 3.79,
+      "characterCount": 13083,
+      "nonWhitespaceCharacterCount": 9745,
+      "createdDate": 1672687135924,
+      "modifiedDate": 1672688212741
+    },
+    "Excalidraw/example.excalidraw.md": {
+      "noteCount": 1,
+      "wordCount": 880,
+      "pageCount": 2.933333333333333,
+      "characterCount": 10456,
+      "nonWhitespaceCharacterCount": 7909,
+      "createdDate": 1671459468083,
+      "modifiedDate": 1671461102714
+    },
+    "Bayesian inference.md": {
+      "noteCount": 1,
+      "wordCount": 54,
+      "pageCount": 0.18,
+      "characterCount": 343,
+      "nonWhitespaceCharacterCount": 286,
+      "createdDate": 1671464186270,
+      "modifiedDate": 1672681614312
+    },
+    "Bayes' theorem.md": {
+      "noteCount": 1,
+      "wordCount": 154,
+      "pageCount": 0.5133333333333333,
+      "characterCount": 926,
+      "nonWhitespaceCharacterCount": 771,
+      "createdDate": 1671465435924,
+      "modifiedDate": 1671466499428
+    }
+  }
+}

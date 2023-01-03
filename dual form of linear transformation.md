@@ -5,12 +5,12 @@ $\require{physics}{}$
 I will use notation from [[dot product attention]] here.
 The following two functions are equal:
 - $S_{1}(x) = Wx$ (linear layer)
-- $S_{2}(x) = \mathrm{Attention}(K, V, x)$
+- $S_{2}(x) = \mathrm{Attn}(K, V, x)$
 with $W = \sum\limits_{i=1}^{T} v_{t} k_{t}^{T} = V K^{T} \in \mathbb{R}^{d_{out}\times d_{in}}$
 
 ## Proof
 Algebraically, we just need to recall the formula for [[dot product attention]]:
-$$\mathrm{Attention}(K, V, q) = (V K^{T}) q$$
+$$\mathrm{Attn}(K, V, q) = (V K^{T}) q$$
 
 
 But let's get another view. First, suppose that we have only one key-value pair:
@@ -21,6 +21,10 @@ Now note that we can find a sum of two linear models, and we can merge key-value
 
 ## Exercise 1
 There is an explicit formula for conversion from $S_{2}$ to $S_{1}$. Now suppose you have a matrix $W = \begin{pmatrix}1 & 2 & 3\\2 & 3 & 1\\3 & 1 & 2\end{pmatrix}$ and want to find it's representation with $T = 3$ key-value pairs. Can you do it with $T = 2$, with $T = 4$?
+
+## Hint
+Decomposing $W$ with $T$ key-value pairs means that you can express each column of $W$ as a linear combination of these values (and keys give the coefficients for this linear combination). For example, the first column of $W$, $W_{:, 1} = \sum\limits_{i=1}^{T} (k_{i})_{1}\ v_{i}$.
+So we can do it for any $T \geq \rank W = 3$.
 
 ## Exercise 2
 We can find a more useful decomposition if we know how we got the matrix $W$.
