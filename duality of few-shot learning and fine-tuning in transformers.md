@@ -48,6 +48,8 @@ y
 \end{split}$$
 As we can see, $W_{K}X'$ acts as a dataset and $W_{V}X'$ as gradients. Note that they are not the actual gradients, but only an output from a part of the model.
 
+According to the authors of the paper, the real gradients and these $W_{V}X'$ are somewhat similar.
+
 ## Exercise 1
 There is a trick called sign gradient descent, where you do updates as follows:
 $$x_{i+1} = x_{i} + \alpha\ \mathrm{sign}(\nabla f(x_{i}))$$

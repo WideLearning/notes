@@ -6,3 +6,4 @@ Entry points:
 - [[obsidian]]
 - [[Bayesian inference]]
 - [[deep learning]]
+- [[linear algebra]]

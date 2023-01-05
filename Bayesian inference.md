@@ -1,7 +1,6 @@
 # Bayesian inference
 
 ## Topics
-
 - [[terms commonly used in Bayesian statistics]]
 - [[bayesian update]]
 - [[merging prior and likelihood]]
@@ -9,7 +8,6 @@
 - [[inference methods]]
 - [[Pyro]] (not finished)
 
-## Books about it
-
-- Statistical Rethinking: A Bayesian Course with Examples in R and Stan
-- Probability Theory: The Logic of Science
+## Books
+- Richard McElreath. _Statistical Rethinking: A Bayesian Course with Examples in R and Stan_
+- Edwin Thompson Jaynes. _Probability Theory: The Logic of Science_
