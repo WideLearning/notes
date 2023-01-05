@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linear independence.md",
+                "file": "linear algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linear independence.md",
+                "file": "linear algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linear independence.md",
+                "file": "linear algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linear independence.md"
+                "file": "linear algebra.md"
               }
             }
           },
@@ -160,15 +160,15 @@
   },
   "active": "d199ee01196afd71",
   "lastOpenFiles": [
+    "linear dependence.md",
+    "linearly independent lists are shorter than linearly spanning.md",
+    "linear dependence lemma.md",
     "linear algebra.md",
-    "linear independence.md",
     "Bayesian inference.md",
     "deep learning.md",
     "README.md",
     "rejection sampling.md",
     "duality of few-shot learning and fine-tuning in transformers.md",
-    "terms commonly used in Bayesian statistics.md",
-    "likelihood function.md",
-    "Bayes' theorem.md"
+    "terms commonly used in Bayesian statistics.md"
   ]
 }
