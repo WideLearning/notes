@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linear algebra.md",
+                "file": "fundamental theorem of linear maps.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linear algebra.md",
+                "file": "fundamental theorem of linear maps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linear algebra.md",
+                "file": "fundamental theorem of linear maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linear algebra.md"
+                "file": "fundamental theorem of linear maps.md"
               }
             }
           },
@@ -160,15 +161,15 @@
   },
   "active": "d199ee01196afd71",
   "lastOpenFiles": [
-    "linear dependence.md",
-    "linearly independent lists are shorter than linearly spanning.md",
-    "linear dependence lemma.md",
+    "linear map.md",
     "linear algebra.md",
+    "fundamental theorem of linear maps.md",
+    "linear dependence.md",
+    "linear dependence lemma.md",
+    "linearly independent lists are shorter than linearly spanning.md",
     "Bayesian inference.md",
     "deep learning.md",
     "README.md",
-    "rejection sampling.md",
-    "duality of few-shot learning and fine-tuning in transformers.md",
-    "terms commonly used in Bayesian statistics.md"
+    "rejection sampling.md"
   ]
 }
