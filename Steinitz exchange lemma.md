@@ -1,4 +1,4 @@
-# linearly independent lists are shorter than linearly spanning
+# Steinitz exchange lemma
 From [[linear dependence]]
 
 ## Statement

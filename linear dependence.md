@@ -6,4 +6,4 @@ A list of vectors $v_{1}, \dots, v_{n}$ from $F$-vector space $V$ is linearly de
 
 ## Properties
 - [[linear dependence lemma]]
-- [[linearly independent lists are shorter than linearly spanning]]
+- [[Steinitz exchange lemma]]

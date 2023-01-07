@@ -1,6 +1,5 @@
 # Bayes' theorem
-
-from [[terms commonly used in Bayesian statistics]]
+From [[terms commonly used in Bayesian statistics]]
 
 If $X$ is the variable we are interested in and $D$ is the data we have:
 $$ P(X \mid D) =

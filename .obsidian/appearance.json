@@ -4,5 +4,6 @@
   "interfaceFontFamily": "Palatino",
   "baseFontSize": 22,
   "showViewHeader": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": []
 }
