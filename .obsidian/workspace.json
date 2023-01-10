@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "annihilator dimension.md",
+                "file": "image of dual map.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "annihilator dimension.md",
+                "file": "image of dual map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "annihilator dimension.md",
+                "file": "image of dual map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "annihilator dimension.md"
+                "file": "image of dual map.md"
               }
             }
           },
@@ -161,15 +161,15 @@
   },
   "active": "108e7f5127826b91",
   "lastOpenFiles": [
-    "annihilator.md",
-    "linear algebra.md",
-    "duality.md",
+    "dimension test.md",
+    "image of dual map.md",
     "dual map.md",
-    "dual for composition.md",
-    "dual basis.md",
-    "dual basis is a basis.md",
+    "duality.md",
     "dual space.md",
-    "quotient space.md",
-    "injectivity = surjectivity for finite-dimensional linear operators.md"
+    "annihilator.md",
+    "kernel of dual map.md",
+    "surjectivity is injectivity of dual.md",
+    "annihilator dimension.md",
+    "linear algebra.md"
   ]
 }

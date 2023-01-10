@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "interfaceFontFamily": "Palatino",
-  "baseFontSize": 22,
+  "baseFontSize": 20,
   "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": []
