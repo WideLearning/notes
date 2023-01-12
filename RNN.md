@@ -1,15 +1,16 @@
 # RNN
-#RNN
-Recurrent neural networks are a class of neural networks that are able to save some information about previous inputs using a hidden layer. 
-On each step, hidden layer is changed by new input and then hidden layer is used for inference an output. More formally, *a* - hidden layer, *x* - input, then $$a = g_1(W_{aa}a + W_{ax}x + b_{a}), y = g_2(W_{ya} a + b_y)$$
-where $W_{ax}, W_{aa}, W_{ya}, b_a, b_y$​ are coefficients that are shared temporally and $g_1, g_2$ activation functions.
+From [[deep learning]]
 
-| **Advantages**                                        | **Drawbacks**                                            |
-| ----------------------------------------------------- | -------------------------------------------------------- |
-|  Possibility of processing input of any length       | Computation being slow                                   |
-| Model size not increasing with size of input          | Difficulty of accessing information from a long time ago |
-| Computation takes into account historical information | Cannot consider any future input for the current state   |
-| Weights are shared across time                        |                                                          |
+Recurrent neural networks are a class of neural networks that are able to save some information about previous inputs using a hidden layer. 
+On each step, hidden layer is changed by new input and then hidden layer is used for inference an output. More formally, $a$ - previous hidden layer, $x$ - input, then $$a = g_1(W_{aa}a + W_{ax}x + b_{a}), y = g_2(W_{ya} a + b_y)$$
+where $W_{ax}, W_{aa}, W_{ya}, b_a, b_y$ are coefficients that are shared temporally and $g_1, g_2$ are some activation functions.
+
+Advantages:
+- Possibility of processing input of any length taking into account historical information
+- Model size doesn't increase for larger inputs, because weights are shared
+Drawbacks:
+- Slow computation, because we need to process input sequentially
+- Difficult access to information from a long time ago due to unstable gradients
 
 ## Loss function
 
@@ -20,7 +21,7 @@ $$\L (\widehat{y}, y) = \sum_i \L (\widehat{y}_{i}, y_i)$$
 Backpropagation is done after loss is counted for each element in sequence.
 
 ```python
-a = torch.nrand(hsize)
+a = torch.randn(hsize)
 loss = 0
     
 x, y, n = get_sequence()
@@ -42,9 +43,30 @@ The most common activation functions used in RNN modules are:
 - **Tanh**
 - **RELU**
 
+## Example
+```python
+class Model(nn.Module):
+    def __init__(self, hidden_size, x_size, y_size):
+        super().__init__()
+        self.hidden_size = hidden_size
+        self.x_size = x_size
+        self.y_size = y_size
+        
+        self.Waa = nn.Linear(hidden_size, hidden_size)
+        self.Wax = nn.Linear(x_size, hidden_size)
+        self.g1 = nn.Tanh()
+        self.g2 = nn.Softmax()
+        
+        self.Wya = nn.Linear(hidden_size, y_size)
+    
+    def forward(self, x, a):
+        new_a = self.g1(self.Waa(a) + self.Wax(x))
+        return self.g2(self.Wya(new_a)), new_a
+```
+
 ## Hidden layer initialization
 
-When inference, hidden layer should be initialized with zeros. But it case of training hidden layer can be initialized using $\mathcal{N}(0, \sigma)$ - it will work as regularization.
+When doing inference, hidden layer should be initialized with zeros. But in case of training, hidden layer can be initialized using $\mathcal{N}(0, \sigma)$ - it will work as regularization.
 
 ## Useful observation
 

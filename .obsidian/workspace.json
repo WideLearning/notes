@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "image of dual map.md",
+                "file": "RNN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "image of dual map.md",
+                "file": "RNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "image of dual map.md",
+                "file": "RNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "image of dual map.md"
+                "file": "RNN.md"
               }
             }
           },
@@ -161,15 +160,15 @@
   },
   "active": "108e7f5127826b91",
   "lastOpenFiles": [
-    "dimension test.md",
+    "deep learning.md",
+    "RNN.md",
     "image of dual map.md",
+    "dimension test.md",
     "dual map.md",
     "duality.md",
     "dual space.md",
     "annihilator.md",
     "kernel of dual map.md",
-    "surjectivity is injectivity of dual.md",
-    "annihilator dimension.md",
-    "linear algebra.md"
+    "surjectivity is injectivity of dual.md"
   ]
 }
