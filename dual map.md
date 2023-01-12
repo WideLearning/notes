@@ -10,4 +10,4 @@ $$ T'(\varphi) = \varphi \circ T, \forall \varphi \in \L(W, F)$$
 - [[kernel of dual map]]
 - [[image of dual map]]
 - [[surjectivity is injectivity of dual]]
-- If we have inner product, $T \in \F^{m \times n}$ 
+- [[matrix of dual is transposed]]

@@ -11,6 +11,8 @@ $\physics$
 - [[linear operator]]
 - [[quotient space]]
 - [[duality]]
+- [[invariant space]]
+- [[eigenvalue]], [[eigenvector]]
 
 ## TODO
 - span
@@ -31,3 +33,5 @@ $\physics$
 - $V / U$ is [[quotient space]];
 - $V'$ means [[duality]];
 - $U^{0}_{V}$ is [[annihilator]];
+- $[T]_{w}^{v}$ is the matrix representation of $T$ with input coordinates in $v$ and output in $w$;
+- $A^{T}$ is the transpose of matrix $A$;

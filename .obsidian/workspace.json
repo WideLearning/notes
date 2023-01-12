@@ -11,13 +11,8 @@
             "id": "108e7f5127826b91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RNN.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "RNN.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,15 +151,15 @@
   },
   "active": "108e7f5127826b91",
   "lastOpenFiles": [
-    "deep learning.md",
-    "RNN.md",
-    "image of dual map.md",
-    "dimension test.md",
-    "dual map.md",
+    "eigenvalue.md",
+    "eigenvector.md",
+    "invariant space.md",
+    "linear algebra.md",
+    "linear map.md",
+    "matrix of dual is transposed.md",
     "duality.md",
-    "dual space.md",
-    "annihilator.md",
-    "kernel of dual map.md",
-    "surjectivity is injectivity of dual.md"
+    "matrix of a linear map.md",
+    "dual map.md",
+    "RNN.md"
   ]
 }
