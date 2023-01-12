@@ -1,7 +1,8 @@
 # RNN
 From [[deep learning]]
 
-Recurrent neural networks are a class of neural networks that are able to save some information about previous inputs using a hidden layer. 
+Recurrent neural networks are a class of neural networks that are able to save some information about previous inputs using a hidden layer. There are different variations, e.g. [[LSTM]], but here we describe the simplest case.
+
 On each step, hidden layer is changed by new input and then hidden layer is used for inference an output. More formally, $a$ - previous hidden layer, $x$ - input, then $$a = g_1(W_{aa}a + W_{ax}x + b_{a}), y = g_2(W_{ya} a + b_y)$$
 where $W_{ax}, W_{aa}, W_{ya}, b_a, b_y$ are coefficients that are shared temporally and $g_1, g_2$ are some activation functions.
 

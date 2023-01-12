@@ -11,8 +11,13 @@
             "id": "108e7f5127826b91",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LSTM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LSTM.md"
+              }
             }
           },
           {
@@ -151,6 +161,7 @@
   },
   "active": "108e7f5127826b91",
   "lastOpenFiles": [
+    "RNN.md",
     "eigenvalue.md",
     "eigenvector.md",
     "invariant space.md",
@@ -159,7 +170,6 @@
     "matrix of dual is transposed.md",
     "duality.md",
     "matrix of a linear map.md",
-    "dual map.md",
-    "RNN.md"
+    "dual map.md"
   ]
 }
