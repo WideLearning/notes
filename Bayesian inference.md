@@ -1,3 +1,6 @@
+---
+date: 2023-01-14
+---
 # Bayesian inference
 
 ## Topics
@@ -6,6 +9,7 @@
 - [[merging prior and likelihood]]
 - [[prior vs data]]
 - [[inference methods]]
+- [[abc trick]]
 - [[Pyro]] (not finished)
 
 ## Books

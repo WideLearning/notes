@@ -1,3 +1,7 @@
+---
+date: 2022-07-19
+---
+
 # obsidian
 
 ## Basics
@@ -36,3 +40,6 @@ Obsidian support Latex by default, this plugin provides some autocompletions. Al
 $$a \overset{b}{\underset{c}=} d$$
 ### Extended MathJax
 Adds support for preamble and allows including some LaTeX packages, e.g. `physics`.
+
+## Extras
+- [[semantic search through the notes]]
