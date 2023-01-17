@@ -1,6 +1,3 @@
----
-date: 2022-08-11
----
 # isomorphism
 from [[objects, morphisms and categories in category theory]] and [[linear algebra]]
 

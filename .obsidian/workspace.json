@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "iso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,15 +160,15 @@
   },
   "active": "108e7f5127826b91",
   "lastOpenFiles": [
-    "attention.md",
-    "isomorphism.md",
     "obsidian.md",
-    "invertibility.md",
+    "isomorphism.md",
     "Bayesian inference.md",
+    "scaled softmax attention.md",
+    "attention.md",
+    "invertibility.md",
     "bayesian update.md",
     "coordinate representation.md",
     "every operator has upper-triangular representation over C.md",
-    "linear algebra.md",
-    "eigenvector.md"
+    "linear algebra.md"
   ]
 }

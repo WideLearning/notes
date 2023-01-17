@@ -1,7 +1,4 @@
----
-date: 2023-01-14
----
-# Bayesian inference
+	# Bayesian inference
 
 ## Topics
 - [[terms commonly used in Bayesian statistics]]
