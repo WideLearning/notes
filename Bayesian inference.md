@@ -1,4 +1,4 @@
-	# Bayesian inference
+# Bayesian inference
 
 ## Topics
 - [[terms commonly used in Bayesian statistics]]
@@ -6,6 +6,7 @@
 - [[merging prior and likelihood]]
 - [[prior vs data]]
 - [[inference methods]]
+- [[Solomonoff’s induction]]
 - [[abc trick]]
 - [[Pyro]] (not finished)
 
