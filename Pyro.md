@@ -58,3 +58,6 @@ plt.figure(figsize=(10, 10))
 sns.histplot(samples, bins=16)
 plt.show()
 ```
+
+## See also
+- https://github.com/csiro-mlai/hackfest-ppl/

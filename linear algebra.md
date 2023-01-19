@@ -12,7 +12,8 @@ $\physics$
 - [[quotient space]]
 - [[duality]]
 - [[invariant space]]
-- [[eigenvalue]], [[eigenvector]]
+- [[eigenvalue]], [[eigenvector]], [[eigenspace]]
+- [[inner product]], [[orthogonal basis]], [[Gram–Schmidt orthogonalization]]
 
 ## TODO
 - span

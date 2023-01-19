@@ -11,8 +11,13 @@
             "id": "998c8ac027eefbb2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Solomonoff’s induction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Solomonoff’s induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Solomonoff’s induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Solomonoff’s induction.md"
+              }
             }
           },
           {
@@ -151,6 +160,8 @@
   },
   "active": "998c8ac027eefbb2",
   "lastOpenFiles": [
+    "neural networks are approximations for induction.md",
+    "sesquilinnear form.md",
     "scaled softmax attention.md",
     "obsidian.md",
     "isomorphism.md",
@@ -158,8 +169,6 @@
     "attention.md",
     "invertibility.md",
     "bayesian update.md",
-    "coordinate representation.md",
-    "every operator has upper-triangular representation over C.md",
-    "linear algebra.md"
+    "coordinate representation.md"
   ]
 }
