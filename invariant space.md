@@ -6,4 +6,6 @@ A $U \leqslant V$ is invariant under $T \in \L(V)$ iff $T(U) \leqslant U$.
 
 ## Properties
 - $\ker T$ and $\im T$ are invariant under $T$
+- Moreover, [[kernel and image of polynomial are invariant]]
 - Span of any [[eigenvector]] is one-dimensional invariant subspace
+- [[self-adjont operators and invariant subspaces]]

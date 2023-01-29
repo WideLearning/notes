@@ -7,3 +7,6 @@ $\lambda$ is called an eigenvalue of $T$ if there is an  [[eigenvector]] $v \ne 
 ## Properties
 - [[number of eigenvalues is bounded by space dimension]]
 - [[eigenvalues exist in Cn]]
+- [[eigenvalues of self-adjoint operators are real]]
+- [[self-adjoint operator has eigenvalues]]
+- [[algebraic multiplicity]], [[geometric multiplicity]]

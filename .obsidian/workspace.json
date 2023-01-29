@@ -13,14 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solomonoff’s induction.md",
+                "file": "linear algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "15b20e24b7c9f7c6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iso",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -86,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solomonoff’s induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solomonoff’s induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Solomonoff’s induction.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,17 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "998c8ac027eefbb2",
+  "active": "15b20e24b7c9f7c6",
   "lastOpenFiles": [
-    "neural networks are approximations for induction.md",
-    "sesquilinnear form.md",
-    "scaled softmax attention.md",
-    "obsidian.md",
-    "isomorphism.md",
-    "Bayesian inference.md",
-    "attention.md",
-    "invertibility.md",
-    "bayesian update.md",
-    "coordinate representation.md"
+    "minimal polynomial.md",
+    "eigenvalues are zeros of minimal polynomial.md",
+    "existence of minimal polymonial.md",
+    "linear algebra.md",
+    "characteristic polynomial.md",
+    "annihilating polynomials are multiples of minimal.md",
+    "Cayley-Hamilton theorem.md",
+    "Jordan form.md",
+    "Jordan cell.md",
+    "decomposition into invariant subspaces.md"
   ]
 }

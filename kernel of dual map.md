@@ -15,7 +15,7 @@ $$ (\im T)^{0}_{W} = \{ f \in \L(W, F) \mid f(\im T) = \{0\}\}$$
 $$ T'(f) = 0 \eq \im(f \circ T) = 0 \eq f(\im T) = \{0\}$$
 Taking it all together we prove the first point.
 
-Adding [[annihilator dimension]] and [[fundamental theorem of linear maps]] we prove the second:
+Adding [[annihilator dimension]] and [[rank-nullity theorem]] we prove the second:
 $$\begin{split}
 \dim \ker T'
 &= \dim (\im T)^{0}_{W}\\

@@ -1,5 +1,5 @@
 # eigenvectors with different eigenvalues are independent
-From [[eigenvector]]
+From [[eigenvector]], related to [[independence of generalized eigenvectors]]
 
 ## Statement
 Let $T \in \L(V)$ and $\lambda_{[n]}$ are distinct eigenvalues with $v_{[n]}$ being the corresponding eigenvectors. Then $v_{[n]}$ are linearly independent.

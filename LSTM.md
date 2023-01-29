@@ -9,17 +9,14 @@ $$ h_{t} = \tanh(W_{u}x_{t}+U_{u}h_{t-1} +b_{u})$$
 Here the state is completely recalculated each time based on the previous state and the new inputs. Because of this, when we apply activation function multiple times the information from the past quickly vanishes or explodes.
 
 ### Adding constant error carousel
-
 $$ u_{t} = \tanh(W_{u}x_{t}+U_{u}h_{t-1} +b_{u})$$
 $$ c_{t} = c_{t-1} + u_{t} $$
 $$ h_{t}= c_{t} $$
-So if we denote our previous activation function $f(x)$ then now we use $x + f(x)$ instead, like in invertible neural networks. As one can see, the gradient of our new activation function is $1 + f'(x)$ . It means that for majority of traditional functions (tanh, sigmoid) we solved the problem of vanishing gradient (Our gradient is more than 1), but it still can explode.
-
+Here we replace the activation function with the sum of the old value and the result of activation, like in invertible neural networks. Now the gradients can’t vanish (because we keep the gradient of at least 1), but they still can explode.
 
 ### Cutting off gradients
 
-To prevent it, we will truncate our backpropagation. Now we don’t propagate gradients from $u_{t}$ to $h_{t-1}$.We just decompose $c_t$ into a sum of $u_{1..t}$ and differentiate all of them w.r.t. $x_{1..t}$.
-
+To prevent it, we will truncate our backpropagation. Now we don’t propagate gradients from $u_{t}$ to $h_{t-1}$.Wwe just decompose $c_t$ into a sum of $u_{1..t}$ and differentiate all of them w.r.t. $x_{1..t}$.
 
 ### Adding gates
 $$ u_{t} = \tanh(W_{u}x_{t}+U_{u}h_{t-1} +b_{u})$$
@@ -33,7 +30,6 @@ $o_t$ — output gate activation
 $h_t$ — hidden state, which is also output
 $u_t$ — cell update
 $c_t$ — cell state vector
-$\odot$ — Hadamard product (elementwise multiplication)
 
 Now we add multiplicative gates between update and cell state vectors (input) and between cell state and hidden state (output). This allows the network to be more selective about which parts of cell memory can be overwritten and from which parts should we calculate the answer.
 

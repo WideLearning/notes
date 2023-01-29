@@ -8,6 +8,6 @@ from [[linear algebra]], [[complex analysis]]
 3. $\langle x, x \rangle = 0 \Leftrightarrow x = 0$
 
 ## Properties
-- [[cauchy-schwarz inequality]]
+- [[Cauchy-Schwarz inequality]]
 - $\norm{x} = \sqrt{\ev{x, x}}$ is a norm
 - [[parallelogram equality]]

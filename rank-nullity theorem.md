@@ -1,5 +1,5 @@
-# fundamental theorem of linear maps
-From [[linear map]]
+# rank-nullity theorem
+From [[linear map]], related to [[rank-nullity for power]]
 $\physics$
 ## Statement
 $$\dim T = \dim \ker T + \dim \im T$$

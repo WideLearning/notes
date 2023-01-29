@@ -13,4 +13,4 @@ T \in \L(V, W)\\
 $$\ker T = \{ v \mid v \in V, Tv = 0 \}$$
 $$\im T = \{ Tv \mid v \in V \}$$
 ## Properties
-- [[fundamental theorem of linear maps]]
+- [[rank-nullity theorem]]

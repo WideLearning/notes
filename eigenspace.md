@@ -7,3 +7,4 @@ In other words, eigenspace of $\lambda$ is formed by all its eigenvectors.
 
 ## Properties
 - [[sum of eigenspaces is direct]]
+- [[eigenspace of inverse]]
