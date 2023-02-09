@@ -15,3 +15,4 @@ And also if we take $\varphi(v) = \ev{Tv, \alpha w_{1} + \beta w_{2}} = \alpha \
 - $(A^{*})^{*} = A$
 - $(AB)^{*} = (BA)^{*}$
 - [[kernel and image of adjoint]]
+- [[matrix of adjoint in orthonormal basis is conjugate transposed]]

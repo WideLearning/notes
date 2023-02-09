@@ -11,3 +11,4 @@ They are also called orthogonal operators.
 - [[isometries have orthonormal matrices]]
 - [[inverse of isometry]]
 - [[isometries in C]]
+- [[isometries on real inner product spaces]]

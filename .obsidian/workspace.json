@@ -8,28 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "998c8ac027eefbb2",
+            "id": "01eac3af6827a870",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linear algebra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15b20e24b7c9f7c6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,8 +130,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,17 +149,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15b20e24b7c9f7c6",
+  "active": "01eac3af6827a870",
   "lastOpenFiles": [
-    "minimal polynomial.md",
-    "eigenvalues are zeros of minimal polynomial.md",
-    "existence of minimal polymonial.md",
-    "linear algebra.md",
-    "characteristic polynomial.md",
-    "annihilating polynomials are multiples of minimal.md",
-    "Cayley-Hamilton theorem.md",
-    "Jordan form.md",
-    "Jordan cell.md",
-    "decomposition into invariant subspaces.md"
+    "Bayesian inference.md",
+    "inference methods.md",
+    "Metropolis-Hastings algorithm.md",
+    "Markov Chain Monte Carlo (MCMC).md",
+    "probability distributions.md",
+    "simple Bayesian inference with MCMC.md",
+    "Gibbs sampling.md",
+    "Markov chain.md",
+    "hilbert space.md",
+    "orthogonal projector.md"
   ]
 }

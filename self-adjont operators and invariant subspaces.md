@@ -1,12 +1,10 @@
 # self-adjont operators and invariant subspaces
-From [[self-adjoint operator]] and [[invariant space]]
+From [[self-adjoint operator]] and [[invariant space]], extended in [[normal operators and invariant subspaces]]
 $\physics$
 ## Statement
 Let $T \in \L(V)$ be [[self-adjoint operator]] and $U \leq V$ is invariant under $T$, then:
 - $U^{\perp}$ is also invariant
 - $T|_{U} \in \L(U)$ is also self-adjoint
-
-Also, for (1) it’s enough to have a [[normal operator]].
 
 ## Proof
 The main property of [[self-adjoint operator]] is its ability to swap arguments in [[inner product]], so let’s cast our problem in terms of inner products.

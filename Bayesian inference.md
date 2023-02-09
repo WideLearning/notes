@@ -6,7 +6,7 @@
 - [[merging prior and likelihood]]
 - [[prior vs data]]
 - [[inference methods]]
-- [[Solomonoff’s induction]]
+- [[inductive inference]]
 - [[abc trick]]
 - [[Pyro]] (not finished)
 

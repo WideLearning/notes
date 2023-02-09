@@ -6,5 +6,5 @@ $v$ is called eigenvector of $T$ if there is an [[eigenvalue]] $\lambda: Tv = \l
 
 ## Properties
 - [[eigenvectors with different eigenvalues are independent]]
-- [[adjoint has the same eigenvectors for normal operators]]
+- [[adjoint has same eigenvectors for normal operators]]
 - [[orthogonal eigenvectors for normal operators]]

@@ -1,7 +1,9 @@
 # Solomonoff’s induction
-From [[Bayesian inference]] and [[Information theory]], related to [[algorithmic probability]]
+From [[Bayesian inference]] and [[information theory]], related to [[algorithmic probability]]
 Based on http://www.raysolomonoff.com/publications/isis96.pdf
 $\physics$
+See [[development of Solomonoff’s induction]]
+
 ## First definition
 We consider all programs that take observations and output a real number. To make it a valid likelihood we can explicitly apply softmax to it, aggregating over all possible inputs. Then we take a [[prior distribution]] that is $\text{alphabet size}^{-\text{program length}}$ and combine it with the [[likelihood function]] described above. We get a [[posterior distribution]] of programs (models) and can do inference of the next observations from it.
 

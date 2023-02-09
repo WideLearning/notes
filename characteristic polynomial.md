@@ -10,4 +10,4 @@ is called characteristic polynomial of $T$.
 - It has degree $\dim V$ by [[decomposition into invariant subspaces]]
 - It annihilates $T$: [[Cayley-Hamilton theorem]]
 - It is multiple of [[minimal polynomial]] because [[annihilating polynomials are multiples of minimal]]
-- $p(t) = \det(t - A)$ (todo)
+- [[characteristic polynomial via determinant]]

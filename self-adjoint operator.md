@@ -13,3 +13,4 @@ In other words: $\forall v, u: \ev{Tv, u} = \ev{v, Tu}$.
 - To get the matrix of adjoint in orthogonal basis you transpose and conjugate it
 - [[self-adjont operators and invariant subspaces]]
 - [[singular values of self-adjoint operators]]
+- [[normal but not self-adjoint operators on real inner product spaces]]

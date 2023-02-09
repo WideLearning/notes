@@ -6,5 +6,7 @@
   "table-editor-obsidian",
   "obsidian-git",
   "obsidian-latex",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-tikzjax",
+  "obsidian-vault-statistics-plugin"
 ]

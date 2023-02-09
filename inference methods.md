@@ -10,5 +10,5 @@ But we want to get something useful from the posterior, for examplel, samples, o
 
 There are three approaches:
 - [[grid approximation]]
-- [[MCMC sampling]]
+- [[Markov Chain Monte Carlo (MCMC)]]
 - [[variational inference]]

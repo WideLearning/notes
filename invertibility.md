@@ -9,3 +9,4 @@ $T \in W^{V}$ is invertible iff $\exists S \in V^{W}: ST = TS = I$ and such $S$ 
 - [[invertibility = injectivity + surjectivity]]
 - [[injectivity = surjectivity for finite-dimensional linear operators]]
 - [[invertible quadratic expressions]]
+- [[invertibility is equivalent to nonzero determinant]]

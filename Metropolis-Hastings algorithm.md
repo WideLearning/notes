@@ -1,5 +1,5 @@
 # Metropolis-Hastings algorithm
-From [[MCMC sampling]]
+From [[Markov Chain Monte Carlo (MCMC)]]
 
 ### Algorithm
 We have an irreducible markov chain with matrix $Q = (p_{i,j})$ and the desired stationary distribution $s$. We might even not know the normalizing constant in $s$, it will cancel out anyway. We start with arbitrary $X_{0}$ and then at each step:

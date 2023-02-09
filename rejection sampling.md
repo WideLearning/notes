@@ -1,5 +1,5 @@
 # rejection sampling
-From [[MCMC sampling]]
+From [[Markov Chain Monte Carlo (MCMC)]]
 $\require{physics}{}$
 Actually, it's not even about markov chains, because here each successfully sampled point will follow the target distribution independently.
 

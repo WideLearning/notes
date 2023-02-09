@@ -31,11 +31,13 @@ $\physics$
 - [[nilpotent operator]], [[decomposition into invariant subspaces]]
 - [[Jordan cell]], [[Jordan form]]
 - [[characteristic polynomial]], [[minimal polynomial]]
-
+- [[complexification]]
+- [[trace]], [[determinant]]
 
 ## Books
 - Sheldon Axler. _Linear Algebra Done Right_
-
+- [The Matrix Cookbook](http://www2.imm.dtu.dk/pubdb/edoc/imm3274.pdf)
+ 
 ## Notation
 - $\ev{v_{1}, v_{2}, \dots, v_{n}}$ is a linear span of $n$ vectors;
 - $\ev{v, u}$ might also mean dot product, depending on the context;
@@ -53,3 +55,4 @@ $\physics$
 - $A^{T}$ is the transpose of matrix $A$;
 - $E(\lambda, T)$ is [[eigenspace]]; $G(\lambda, T)$ is [[generalized eigenspace]];
 - $J_{\lambda, n}$ is [[Jordan cell]] with eigenvalue $\lambda$ and size $n$;
+- $S_{n}$ is the group of permutations of $n$ elements;
