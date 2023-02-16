@@ -9,3 +9,7 @@ It is a simplified version of general RL task, because it removes temporal depen
 - $R_{t}$ — reward on step $t$ (that is, after $A_t$)
 - $q(a) = \mathbb{E}(R_{t} \mid A_{t} = a)$
 - $Q_{t}(a)$ — estimate of $q(a)$ on step $t$
+- $N_{t}(a)$ — how many times $a$ was chosen in first $n$ steps
+
+## Methods
+- [[action-value methods for bandit problem]]

@@ -1,5 +1,5 @@
 # cheking finite categories in Python
-From [[category theory]]
+From [[notes/category theory]]
 $\physics$
 ```python
 class Morphism:

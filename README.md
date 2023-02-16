@@ -13,3 +13,4 @@ Entry points:
 - [[reinforcement learning]]
 - [[category theory]]
 - [[algorithmic information theory]]
+- [[Kaggle competitions]]

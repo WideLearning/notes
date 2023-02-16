@@ -1,5 +1,4 @@
 # terms commonly used in Bayesian statistics
-
 From [[Bayesian inference]]
 
 ## Toy example

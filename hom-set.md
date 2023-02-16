@@ -1,4 +1,5 @@
 # hom-set
 From [[basic definitions from category theory]]
 
-For a [[category]] $\textbf{C}$ we define $\textbf{C}(a,b)$ or $\textbf{Hom}_{\textbf{C}}(a,b)$ a set (or class) of morphisms from $a$ to $b$. The more general construction is [[function object]] (aka [[exponential]]).
+## Definition
+For a category $\mathrm{C}$ we define $\mathrm{C}(a,b)$ or $\mathrm{Hom}_{C}(a,b)$ a set (or class) of morphisms from $a$ to $b$. A more general construction is [[function object]] (aka [[exponential]]).

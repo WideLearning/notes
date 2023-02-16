@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01eac3af6827a870",
+            "id": "11b29513376c2024",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "measure theory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 239.5086555480957
   },
   "right": {
     "id": "dd1101b22747dc45",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "measure theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "measure theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "measure theory.md"
+              }
             }
           },
           {
@@ -149,17 +157,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01eac3af6827a870",
+  "active": "11b29513376c2024",
   "lastOpenFiles": [
-    "Bayesian inference.md",
-    "inference methods.md",
-    "Metropolis-Hastings algorithm.md",
-    "Markov Chain Monte Carlo (MCMC).md",
-    "probability distributions.md",
-    "simple Bayesian inference with MCMC.md",
-    "Gibbs sampling.md",
-    "Markov chain.md",
-    "hilbert space.md",
-    "orthogonal projector.md"
+    "nilpotent operator has sparse upper-triangulate matrix.md",
+    "algorithmic information theory.md",
+    "semicomputable function.md",
+    "computable measure.md",
+    "measure theory.md",
+    "measurable set.md",
+    "sets with zero outer measure are measureable.md",
+    "translate of measurable set is measurable.md",
+    "Borel sets are measurable.md",
+    "open and closed sets of reals are measurable.md"
   ]
 }

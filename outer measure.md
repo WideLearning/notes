@@ -12,3 +12,4 @@ Where $I_{k}$ are nonempty, bounded (other are useless here) and open, $\ell(I_{
 - [[outer measure is countably subadditive]]
 - [[outer measure of at most countable set is zero]]
 - [[outer measure of union with set of zero outer measure]]
+- [[outer measure and disjoint measurable sets]]

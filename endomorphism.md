@@ -2,7 +2,7 @@
 From [[basic definitions from category theory]]
 
 ## Definition
-A [[morphism]] $a \to a$ for some $a$.
+A morphism $a \to a$ for some $a$.
 
 ## Properties
 - When also [[isomorphism]], it is [[automorphism]].

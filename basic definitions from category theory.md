@@ -2,7 +2,8 @@
 From [[category theory]]
 
 - [[category]]
-- [[endomorphism]], [[isomorphism]], [[automorphism]], [[hom-set]]
+- [[hom-set]]
+- [[endomorphism]], [[monomorphism]], [[epimorphism]], [[isomorphism]], [[automorphism]]
 - [[initial object]], [[terminal object]]
 - [[opposite category]]
 - [[empty category]]
