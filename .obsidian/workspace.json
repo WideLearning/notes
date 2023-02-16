@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "measure theory.md",
+                "file": "Microbusiness Density Forecasting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "measure theory.md",
+                "file": "Microbusiness Density Forecasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "measure theory.md",
+                "file": "Microbusiness Density Forecasting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "measure theory.md"
+                "file": "Microbusiness Density Forecasting.md"
               }
             }
           },
@@ -159,15 +159,15 @@
   },
   "active": "11b29513376c2024",
   "lastOpenFiles": [
+    "Kaggle competitions.md",
+    "measure theory.md",
     "nilpotent operator has sparse upper-triangulate matrix.md",
     "algorithmic information theory.md",
     "semicomputable function.md",
     "computable measure.md",
-    "measure theory.md",
     "measurable set.md",
     "sets with zero outer measure are measureable.md",
     "translate of measurable set is measurable.md",
-    "Borel sets are measurable.md",
-    "open and closed sets of reals are measurable.md"
+    "Borel sets are measurable.md"
   ]
 }
