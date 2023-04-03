@@ -1,5 +1,5 @@
 # computable set
-From [[algorithmic information theory]]
+From [[theory of computability]]
 $\physics$
 ## Definition
 A subset of natural numbers is computable if there is a [[Turing machine]] that accepts it and always halts.

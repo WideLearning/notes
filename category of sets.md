@@ -1,5 +1,5 @@
 # category of sets
-From [[notes/category]]
+From [[category]]
 $\physics$
 ## Definition
 $\mathrm{Set}$ is a category where objects are sets and morphisms are (total) functions.

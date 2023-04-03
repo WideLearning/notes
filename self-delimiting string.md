@@ -1,7 +1,7 @@
 # self-delimiting string
-From [[algorithmic information theory]]
+From [[representing complex objects as natural numbers]]
 $\physics$
-We want a function that maps strings to strings in such way that the set of encodings is prefix-free. We will define it as map from numbers to strings because of [[string to number correspondence]].
+We want a function that maps strings to strings in such way that the set of encodings is prefix-free. We will define it as map from numbers to strings because of [[representing complex objects as natural numbers]].
 
 $$E_{i} = \begin{cases}
 1^{x}0 & i  = 0\\

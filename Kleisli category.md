@@ -1,5 +1,5 @@
 # Kleisli category
-From [[notes/category]]
+From [[category]]
 
 ## Informal definition
 Similar to [[category of sets]], but here the morphism $A \to B$ isn’t just a function. It also produces side effects, which are returned together with the main result. And the composition has to respect this, combining those side effects (as in monads)

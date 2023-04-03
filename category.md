@@ -1,5 +1,5 @@
 # category
-from [[basic definitions from category theory]]
+From [[category theory]]
 
 ## Definition
 A category is a collection of objects, collection of morphisms and a composition operation defined on some pairs of morphisms, satisying several properties:
@@ -10,12 +10,15 @@ A category is a collection of objects, collection of morphisms and a composition
 
 ## Potential properties
 - [[discrete category]]
-- [[preorder]]
+- [[preorder]], [[poset]]
 - [[skeleton]]
 - [[small category]], [[locally small category]], [[large category]]
 - [[monoidal category]]
 - [[caresian category]], [[cartesian closed category]]
 - [[balanced category]]
+- [[subcategory]]
+- [[product category]]
+- [[2-category]]
 
 ## Special cases and examples
 - [[empty category]]
@@ -27,3 +30,4 @@ A category is a collection of objects, collection of morphisms and a composition
 - [[category of vector spaces]]
 - [[category of small categories]], [[category of functors]]
 - [[category of Haskell types]]
+- [[category of graphs]]

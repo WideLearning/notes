@@ -1,5 +1,5 @@
 # monoidal category
-From [[notes/category]]
+From [[category]]
 
 ## Definition
-A [[notes/category]] where each pair of objects has its [[categorical product]].
+A [[category]] where each pair of objects has its [[categorical product]].

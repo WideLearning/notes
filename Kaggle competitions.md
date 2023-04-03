@@ -1,4 +1,8 @@
 # Kaggle competitions
 From [[topics]]
 $\physics$
-- [[Microbusiness Density Forecasting]]
+- [[GoDaddy]]
+
+
+## Useful resources
+- [Learning from Kaggle’s Forecasting Competitions](https://arxiv.org/pdf/2009.07701.pdf)

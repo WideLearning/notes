@@ -1,8 +1,8 @@
 # finite automaton
-From [[algorithmic information theory]]
+From [[formal languages]]
 $\physics$
 ## Definition
-A finite automaton is defined by
+A finite automaton is defined by:
 1. $Q$: a finite set, states
 2. $\Sigma$: a finite set, alphabet
 3. $\delta$: a function from $Q \times \Sigma$ to $Q$, transition function
@@ -16,4 +16,5 @@ In other words, it is a [[Turing machine]] where the only action is to move righ
 
 ## Properties
 - A set of strings recognized by finite automata is a [[regular language]].
-- Replacing “function” with “relation” gives [[nondeterministic finite automaton]].
+- Replacing “function” with “relation” gives [[nondeterministic finite automaton]]. [[FA and NFA are equivalent]].
+- After that, replacing characters on edges with regexps gives [[generalized nondeterministic finite automaton]]. [[FA can be converted to GNFA]].

@@ -5,11 +5,11 @@ $\physics$
 Suppose $\forall i \in [n]: X_{i}$ is [[measurable set]]. Then $\bigcup X_{i}$ is also [[measurable set]].
 
 ## Proof
-Because [[outer measure is monotone]], it’s enough to show for arbitrary $A \subset \mathbb{R}$:
+Because [[monotonicity of outer measure]], it’s enough to show for arbitrary $A \subset \mathbb{R}$:
 $$m^{*}(A) \geq m^{*}\qty(A \cap \qty(\bigcup X_{i})) + m^{*}\qty(A \cap \overline{\qty(\bigcup X_{i})})$$
 Denote $M_{11\dots111} = X_{1} \cap X_{2} \dots \cap X_{n}$, $M_{0\dots0} = (\mathbb{R} \setminus X_{1}) \cap (\mathbb{R} \setminus X_{2}) \dots \cap (\mathbb{R} \setminus X_{n})$, $M_{011\dots11} = (\mathbb{R} \setminus X_{1}) \cap X_{2} \dots \cap X_{n}$ and so on. In this terms we are proving:
 $$m^{*}(A) \geq m^{*}\qty(A \cap \qty(\bigcup M_{\ne 0\dots0})) + m^{*}(A \cap M_{0\dots0})$$
-By [[outer measure is countably subadditive]]:
+By [[countable subadditivity of outer measure]]:
 $$m^{*}\qty(A \cap \qty(\bigcup X_{\ne 0})) = m^{*}\qty(\bigcup ( A \cap M_{\ne 0\dots0})) \leq \sum\limits_{s \ne 0\dots0} m^{*}(A \cap X_{s})$$
 And so even stronger version of original statement is:
 $$m^{*}(A) \geq \sum\limits_{s \subset [n]} m^{*}(A \cap M_{s})$$

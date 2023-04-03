@@ -1,5 +1,5 @@
 # endomorphism
-From [[basic definitions from category theory]]
+From [[morphism]]
 
 ## Definition
 A morphism $a \to a$ for some $a$.

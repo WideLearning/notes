@@ -1,5 +1,5 @@
 # category of abelian groups
-From [[notes/category]]
+From [[category]]
 $\physics$
 ## Definition
 Like [[category of groups]], but every object is [[abelian group]].

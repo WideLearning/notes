@@ -1,5 +1,5 @@
 # cylinder
-From [[algorithmic information theory]]
+From [[representing complex objects as natural numbers]]
 $\physics$
 ## Definition
 A cylinder of $x$ which is a string over $\mathcal{B}$ is:

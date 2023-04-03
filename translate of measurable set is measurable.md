@@ -5,4 +5,4 @@ $\physics$
 If $X$ is a [[measurable set]], $X + y$ is also measurable.
 
 ## Proof
-Follows by definition from [[outer measure is translation invariant]].
+Follows by definition from [[translation invariance of outer measure]].

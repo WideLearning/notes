@@ -1,5 +1,5 @@
 # semicomputable function
-From [[algorithmic information theory]]
+From [[computable function]]
 $\physics$
 ## Definition
 A real-valued function $f(x)$ is upper semicomputable if there is a rational-valued [[computable function]] $g(x, k)$ that is non-increasing w.r.t. $k$ and converges to $f(x)$. So, upper semicomputable = bounded from above.

@@ -1,5 +1,5 @@
 # computably enumerable set
-From [[algorithmic information theory]]
+From [[theory of computability]]
 $\physics$
 ## Definition
 A subset of natural numbers is called computably enumerable if it is the range of some total [[computable function]]. Note that the function must output an element of this set given any natural number (= binary string) as input, but it doesn’t need to be injective, so finite sets are also allowed.
@@ -16,4 +16,7 @@ We need to order evaluations in such a way that every element gets infinitely ma
 
 ## Examples
 - every [[computable set]]
-- [[halting set]]
+- [[halting set]], which is not computable
+
+## Properties
+- It’s complement is [[co-computably enumberable set]].

@@ -1,5 +1,5 @@
 # automorphism
-From [[basic definitions from category theory]]
+From [[morphism]]
 $\physics$
 ## Definition
 It is [[endomorphism]] that is also [[isomorphism]].

@@ -12,5 +12,5 @@ Entry points:
 - [[measure theory]]
 - [[reinforcement learning]]
 - [[category theory]]
-- [[algorithmic information theory]]
+- [[automata and computability theory]]
 - [[Kaggle competitions]]

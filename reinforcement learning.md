@@ -8,7 +8,20 @@ Reinforcement learning studies how to learn from interaction with environment. A
 ## Topics
 - [[policy]], [[reward signal]], [[value function]]
 - [[multiarmed bandit problem]]
+- [[Markov decision process]]
+- [[dynamic programming methods]]
+- [[Monte Carlo methods]]
+- [[temporal-difference learning]]
+- [[on-policy distribution]]
+- [[policy gradient methods]]
+
 - [[gymnasium]]
+
+## TODO
+- [[discounting-aware importance sampling]]
+- https://arxiv.org/pdf/1606.02647v2.pdf
+- https://arxiv.org/abs/1506.02438
+- https://arxiv.org/abs/1707.06347
 
 ## Books
 - Richard Sutton, Andrew Barto, _Reinforcement Learning: An Introduction (2nd edition)_

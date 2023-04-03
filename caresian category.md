@@ -1,5 +1,5 @@
-# cartesian closed category
-From [[notes/category]]
+# caresian category
+From [[category]]
 
 ## Definition
 Such category must have:

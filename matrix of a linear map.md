@@ -8,3 +8,4 @@ In other words, $k$-th column tells where the $k$-th vector of the first basis w
 
 ## Properties
 - $[Ta]_{w} = [T]_{w}^{v} [a]_{v}$
+- Notation (putting outputs below and arguments above) is similar to [[index notation]].

@@ -1,5 +1,5 @@
 # category of groups
-From [[notes/category]]
+From [[category]]
 $\physics$
 ## Definition
 Like [[category of monoids]], just every object is [[group]] now.

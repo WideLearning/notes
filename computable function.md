@@ -1,5 +1,5 @@
 # computable function
-From [[algorithmic information theory]]
+From [[theory of computability]]
 $\physics$
 ## $\mathbb{N} \to \mathbb{N}$
 It is a function that is implemented by some [[Turing machine]]. It is total if the machine halts for all inputs and partial otherwise.

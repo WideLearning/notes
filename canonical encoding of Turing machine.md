@@ -1,5 +1,5 @@
 # canonical encoding of Turing machine
-From [[algorithmic information theory]]
+From [[applications of Kolmogorov complexity]]
 $\physics$
 Suppose we have [[Turing machine]] with states $Q$ over alphabet $A$ and its transition function $\delta$ is given by $r$ tuples $(p_{i}, t_{i}, s_{i}, q_{i})$ where $p_{i}$ is the state in which you start, $t_{i}$ is the scanned symbol, $s_{i} \in (A \cup \{ L, R\})$ is the action to take and $q_{i}$ is the state to go. And the start state is $q_{1}$ ($q$ of the first tuple).
 

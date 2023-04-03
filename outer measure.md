@@ -6,10 +6,11 @@ $$m^{*}(A) = \inf\left\{ \sum\limits_{k=1}^{\infty} \ell(I_{k}) \ \Bigg|\ A \sub
 Where $I_{k}$ are nonempty, bounded (other are useless here) and open, $\ell(I_{k})$ is the length of $k$-th interval given by difference of endpoints. Note that [[summation order for positive numbers]] doesn’t matter.
 
 ## Properties
-- [[outer measure is monotone]]
-- [[outer measure is translation invariant]]
-- [[outer measure of range is length]]
-- [[outer measure is countably subadditive]]
+- [[monotonicity of outer measure]]
+- [[translation invariance of outer measure]]
+- [[outer measure of ranges]]
+- [[countable subadditivity of outer measure]]
 - [[outer measure of at most countable set is zero]]
 - [[outer measure of union with set of zero outer measure]]
 - [[outer measure and disjoint measurable sets]]
+- [[excision property]]

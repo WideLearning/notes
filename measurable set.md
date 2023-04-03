@@ -3,7 +3,7 @@ From [[measure theory]]
 $\physics$
 ## Definition
 Denote [[outer measure]] by $m^{*}$. Then set $X$ is measurable iff
-$$\forall A \subset \R: m^{*}(A) = m^{*}(A \cap X) + m^{*}(A \cap \bar X))$$
+$$\forall A \subset \R: m^{*}(A) = m^{*}(A \cap X) + m^{*}(A \cap \bar X)$$
 
 ## Properties
 - [[sets with zero outer measure are measureable]]

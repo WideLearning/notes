@@ -1,5 +1,5 @@
 # isomorphism
-from [[basic definitions from category theory]] and [[linear algebra]]
+From [[morphism]] and [[linear algebra]]
 
 ## Definition
 In general, isomorphism between two sets of objects is an invertible map between them, preserving structure. In case of linear spaces it will be an invertible [[linear map]]. In case of sets it will be a bijection.

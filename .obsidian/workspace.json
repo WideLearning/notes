@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d1ef2cd710b66a28",
+        "id": "683c54c3be23fce8",
         "type": "tabs",
         "children": [
           {
-            "id": "11b29513376c2024",
+            "id": "5a1ddfbfe9cc61bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microbusiness Density Forecasting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microbusiness Density Forecasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microbusiness Density Forecasting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Microbusiness Density Forecasting.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,17 +148,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11b29513376c2024",
+  "active": "5a1ddfbfe9cc61bc",
   "lastOpenFiles": [
-    "Kaggle competitions.md",
-    "measure theory.md",
-    "nilpotent operator has sparse upper-triangulate matrix.md",
-    "algorithmic information theory.md",
-    "semicomputable function.md",
-    "computable measure.md",
-    "measurable set.md",
-    "sets with zero outer measure are measureable.md",
-    "translate of measurable set is measurable.md",
-    "Borel sets are measurable.md"
+    "adjoint functors.md",
+    "measurable function.md",
+    "skeleton.md",
+    "Borel-Cantelli lemma.md",
+    "multitape Turing machine.md",
+    "set of finite measure as finite disjoint union of sets with small measure.md",
+    "dynamic programming methods.md",
+    "reader functor.md",
+    "regular expressions describe regular languages.md",
+    "FA and NFA are equivalent.md",
+    "expected value.md",
+    "equalizer is unique up to isomorphism.md",
+    "mapping reduction.md",
+    "generalized nondeterministic finite automaton.md",
+    "semisimple approximation lemma.md",
+    "spline interpolation.md",
+    "translation invariance of outer measure.md",
+    "integration of nonnegative measurable functions is linear and monotone.md",
+    "hom-functor.md",
+    "approximation by finite disjoint union of intervals.md",
+    "divided differences are invariant under reversal.md",
+    "Markov decision process.md",
+    "conditional invariance theorem.md",
+    "policy gradient theorem.md",
+    "continuous functions are measurable.md",
+    "excision property.md",
+    "copy/Images/plugins.png",
+    "copy/Images/multilayer_model.canvas",
+    "copy/Images/counties.png",
+    "copy/preamble.sty",
+    "copy/build.py",
+    "copy/Images",
+    "copy/Excalidraw",
+    "copy"
   ]
 }

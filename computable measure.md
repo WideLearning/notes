@@ -1,5 +1,5 @@
 # computable measure
-From [[algorithmic information theory]] and [[measure theory]]
+From [[automata and computability theory]] and [[measure theory]]
 $\physics$
 ## Definition
 A measure $\mu: 2^{[0, 1)} \to \mathbb{R}$ is defined by its value on each [[cylinder]]. So it is called computable / semicomputable when the corresponding function from cylinders to reals is computable / semicomputable.

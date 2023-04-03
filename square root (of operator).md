@@ -2,7 +2,7 @@
 From [[linear algebra]]
 $\physics$
 ## Definition
-$R = \sqrt{T}$ ff $R^{2} = T$.
+$R = \sqrt{T}$ iff $R^{2} = T$.
 
 ## Properties
 - [[square roots of positive operators]]

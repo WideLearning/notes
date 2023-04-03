@@ -8,7 +8,9 @@
 - [[inference methods]]
 - [[inductive inference]]
 - [[abc trick]]
+- [[sampling from a Gaussian process]]
 - [[Pyro]] (not finished)
+- [[Bayesianism vs frequentism]]
 
 ## Books
 - Richard McElreath. _Statistical Rethinking: A Bayesian Course with Examples in R and Stan_

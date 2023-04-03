@@ -1,5 +1,5 @@
 # category of vector spaces
-From [[notes/category]]
+From [[category]]
 $\physics$
 ## Definition
 Here object — finite-dimensional [[linear space]], morphism — [[linear map]].

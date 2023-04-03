@@ -1,5 +1,5 @@
 # discrete category
-From [[notes/category]]
+From [[category]]
 $\physics$
 ## Definition
 A category where every morphism is identity.
