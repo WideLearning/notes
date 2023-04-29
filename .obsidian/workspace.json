@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerical methods.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a36e677d19bd91f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "numerical methods.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerical methods.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerical methods.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerical methods.md"
+                "file": "README.md"
               }
             }
           },
@@ -171,34 +157,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a36e677d19bd91f4",
+  "active": "5a1ddfbfe9cc61bc",
   "lastOpenFiles": [
-    "interpolation methods.md",
-    "numerical methods.md",
-    "solving systems of linear equations.md",
-    "iterative approach for linear systems.md",
-    "successive over-relaxation.md",
-    "Gauss-Seidel iteration.md",
-    "convergence of Gaus-Seidel iteration.md",
-    "Jacobi iteration.md",
-    "Gershgorin circle theorem.md",
-    "convergence of iteration for linear systems.md",
-    "Richardson iteration.md",
-    "polynomial interpolation.md",
-    "interpolation error theorem.md",
-    "spline interpolation.md",
-    "B-spline.md",
-    "Bezier curve.md",
-    "Bezier-like curves for other distributions.md",
-    "de Casteljau algorithm.md",
-    "numerical integration.md",
-    "Simpson’s rule.md",
-    "Legendre polynomials.md",
-    "lemma about Gaussian quadrature error.md",
-    "Romberg’s method.md",
-    "trapezoidal rule.md",
-    "error of equidistant trapezoidal rule.md",
-    "numerical differentiation.md",
+    "deep learning.md",
+    "README.md",
+    "Kaggle competitions.md",
+    "measure theory.md",
+    "Lebesgue measure.md",
+    "reinforcement learning.md",
+    "policy gradient methods.md",
+    "function approximation.md",
+    "dynamic programming methods.md",
+    "model-based methods.md",
+    "decision-time planning.md",
+    "trajectory sampling.md",
+    "prioritized sweeping.md",
+    "Dyna-Q.md",
+    "Dyna-Q+.md",
+    "temporal-difference learning.md",
+    "n-step Q(sigma).md",
+    "n-step tree backup.md",
+    "n-step off-policy learning with importance sampling.md",
+    "n-step SARSA.md",
+    "n-step TD prediction.md",
+    "dueling Q-network.md",
+    "maximization bias.md",
+    "expected SARSA.md",
+    "SARSA.md",
+    "double Q-learning.md",
     "copy/Images/plugins.png",
     "copy/Images/multilayer_model.canvas",
     "copy/Images/counties.png",
