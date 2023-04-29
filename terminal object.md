@@ -2,7 +2,7 @@
 From [[category theory]], dual to [[initial object]]
 
 ## Definition
-An object $x$ is called _terminal_ (or _final_) if for every other object $y$ there is a unique morphism $y \to x$. It is usually denoted $1$ and for any $x$ morphism $x \to 1$ is denoted $!_{x}$.
+An object $X$ is called _terminal_ (or _final_) if for every other object $Y$ there is a unique morphism $Y \to X$. It is usually denoted $1$ and for any $X$ morphism $X \to 1$ is denoted $!_{X}$ (same as for [[initial object]]).
 
 ## Properties
 - By definition, it has only one [[endomorphism]] ($!_{1} = \mathrm{id}_{1}$).

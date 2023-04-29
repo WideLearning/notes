@@ -8,30 +8,32 @@ The extent of knowledge required is nothing like as great as is sometimes suppos
 (c) J. E. Littlewood
 
 ## Topics
-- [[summation order for positive numbers]]
-- [[Heine-Borel theorem]]
-- [[open subset of reals is disjoint countable union of intervals]]
-- [[sigma-algebra]], [[Borel sigma-algebra]], [[G-delta set]], [[F-sigma set]]
-- [[outer measure]], [[measurable set]], [[measure]]
-- [[approximation of measurable sets]]
+- [[sigma-algebra]]
+- [[Lebesgue outer measure]], [[Lebesgue measurable set]], [[Lebesgue measure]]
+- [[approximation of Lebesgue measurable sets]]
 - [[almost all]], [[Borel-Cantelli lemma]]
-- [[measurable function]]
+- [[Lebesgue measurable function]]
 - [[converges pointwise]], [[converges uniformly]]
 - [[step function]], [[simple function]], [[semisimple function]]
 - [[Dini’s theorem]], [[Egorov’s theorem]], [[Lusin’s theorem]]
 - [[Lebesgue integral]]
 - [[passage of the limit under the integral sign]]
+- [[uniformly integrable]]
 
-- [[computable measure]]
+- [[measurable space]], [[measure]], [[measure space]]
+- [[signed measure]]
+- [[premeasure]], [[Caratheodory measure]]
+- [[integration over measure spaces]]
+- [[product measure]]
 
 ## TODO
 - Gauge integral
 
 ## Notation
-- $m^{*}(A)$ — [[outer measure]] of $A$
+- $m^{*}(A)$ — [[Lebesgue outer measure]] of $A$
 - $\bar A$ — complement of $A$, that is, $\mathbb{R} \setminus A$
 
 ## Books
 - Halsey Royden, _Real Analysis (4th edition)_
-	- Chapters 1 – 4, 6.1 – 6.5, 7, 8.1
+	- Chapters 1 – 4, 17.1, 17.3 – 17.5, 18.1 – 18.4, 19.1 – 19.3
 - Terence Tao, _An introduction to Measure Theory_ [link](https://terrytao.files.wordpress.com/2012/12/gsm-126-tao5-measure-book.pdf)

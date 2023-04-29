@@ -11,8 +11,9 @@ $$\pi(a \mid s, \theta) = \mathrm{softmax}_{a \in \mathcal{A}(s)}(h(s, a, \theta
 - [[policy gradient theorem]]
 - [[REINFORCE]]
 
+Are there any $n$-step methods here? At least, there are methods on eligibility traces.
+
 ## Notation
 - $\pi(a \mid s, \theta)$ — probability of action $a$ in state $s$ if the parameters of policy are $\theta$
 - $\hat v(s, w)$ —  value function estimate of state $s$ if the value function parameters are $w$
 - $J(\theta)$ — a scalar denoting the performance of policy parametrized by $\theta$
-- 

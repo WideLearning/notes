@@ -1,5 +1,5 @@
 # Heine-Borel theorem
-From [[measure theory]]
+From [[real analysis]]
 $\physics$
 ## Statement
 Bounded and closed $X \subset \mathbb{R}$ is a compact.

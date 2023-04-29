@@ -12,3 +12,4 @@ $\lambda$ is called an eigenvalue of $T$ if there is an  [[eigenvector]] $v \ne 
 - [[algebraic multiplicity]], [[geometric multiplicity]]
 - [[real eigenvalues of complexification]]
 - [[nonreal eigenvalues of complexification]]
+- [[Gershgorin circle theorem]]

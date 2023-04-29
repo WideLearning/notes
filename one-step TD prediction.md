@@ -13,3 +13,7 @@ For each step of episode:
 - Model free
 - $1$-step sample updates
 - Bootstrapping
+
+## See also
+- [[SARSA]] is a complete control algorithm built on it
+- [[Q-learning]] and [[expected SARSA]] use it with some modifications

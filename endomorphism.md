@@ -2,7 +2,7 @@
 From [[morphism]]
 
 ## Definition
-A morphism $a \to a$ for some $a$.
+A [[morphism]] $A \to A$ for some object $A$.
 
 ## Properties
 - When also [[isomorphism]], it is [[automorphism]].

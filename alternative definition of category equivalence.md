@@ -4,7 +4,7 @@ $\physics$
 ## Statement
 The following are equivalent:
 1. $\cat{C}, \cat{D}$ are [[equivalent categories]].
-2. There is a [[functor]] $F: \cat{C} \to \cat{D}$ which is [[complete functor]], [[faithful functor]] and [[essentially surjective functor]].
+2. There is a [[functor]] $F: \cat{C} \to \cat{D}$ which is [[full functor]], [[faithful functor]] and [[essentially surjective functor]].
 
 ## Proof
 $1 \implies 2$:

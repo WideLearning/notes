@@ -1,5 +1,5 @@
 # F-sigma set
-From [[measure theory]]
+From [[Borel sigma-algebra]]
 $\physics$
 ## Definition
 $F_{\sigma}$ is a countable union of closed sets.

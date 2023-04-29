@@ -1,5 +1,5 @@
 # open subset of reals is disjoint countable union of intervals
-From [[measure theory]]
+From [[real analysis]]
 $\physics$
 ## Statement
 Consider an open set $A \subset \mathbb{R}$. Then $\exists l_{\mathbb{N}} \in \mathbb{R}, r_{\mathbb{N}} \in \mathbb{R}$ such that $\bigcup_{i \in \N} (l_{i}, r_{i}) = A$ and is disjoint.

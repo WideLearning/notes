@@ -1,5 +1,5 @@
 # secant method
-From [[numerical methods]]
+From [[solving non-linear equations]]
 $\physics$
 ## Definition
 $$x_{n+1} - x_{n} = -\frac{f(x_{n})(x_{n}- x_{n-1})}{f(x_{n}) - f(x_{n-1})}$$

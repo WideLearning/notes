@@ -5,7 +5,7 @@ From [[probability inequalities]] and [[Lebesgue integral]]
 For nonnegative r.v. $X$:
 $$ P(X \geq a) \leq \frac{\mathrm{E}(X)}{a}$$
 Or in terms of measure theory:
-For [[measurable function]] $f: E \to \mathbb{R}$
+For [[Lebesgue measurable function]] $f: E \to \mathbb{R}$
 $$m(f^{-1}([a, \infty))) \leq \frac{\int_{E} f}{a}$$
 
 ## Proof

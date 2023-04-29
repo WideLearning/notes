@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "measure",
+      "query": "numerical",
       "color": {
         "a": 1,
         "rgb": 14048348
@@ -25,6 +25,6 @@
   "repelStrength": 11.1494893221913,
   "linkStrength": 0.862457443515939,
   "linkDistance": 318,
-  "scale": 0.0815021467599923,
+  "scale": 0.16682594968983808,
   "close": false
 }

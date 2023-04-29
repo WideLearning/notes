@@ -11,3 +11,6 @@ In general it is not true, but there are some important special cases where it h
 - [[Fatou’s lemma]]
 - [[monotone convergence theorem]]
 - [[passing sum of non-negative functions under integral]]
+- [[dominated convergence theorem]]
+- [[general dominated convergence theorem]]
+- [[Vitali convergence theorem]]

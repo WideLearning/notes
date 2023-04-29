@@ -1,5 +1,5 @@
 # Newton’s method
-From [[optimization theory]] and [[numerical methods]]
+From [[optimization theory]] and [[solving non-linear equations]]
 $\physics$
 ## Statement
 $$f(x_{i+1}) \approx f(x_{i}) + \dd f(x_{i})(x_{i+1} - x_{i})$$

@@ -18,7 +18,7 @@ A && \\
 ```
 
 ## Another definition
-Let’s say that diagram is a [[functor]] $D: I \to C$, where $I$ is the category that we use as a pattern. Then a cone is a [[natural transformation]] from $\Delta_{A}$ (constant functor that collapses whole diagram into $A$) to $D$.
+Let’s say that diagram is a [[functor]] $D: I \to C$, where $I$ is the category that we use as a pattern. Then a cone is a [[natural transformation]] from a [[constant functor]] $\Delta_{A}$ to $D$.
 
 ## Properties
 - With universal property it becomes [[categorical limit]].

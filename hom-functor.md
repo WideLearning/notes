@@ -1,4 +1,10 @@
 # hom-functor
-from [[functors in category theory]]
+From [[functor]]
+$\physics$
+## Definition
+A covariant functor $\hom_{C}(A, -)$ maps $X$ to $\hom_{\cat{C}}(A, X)$ and $f: X \to Y$ to $\hom_{\cat{C}}(A, f)(g) = f \circ g$.
+A contravariant functor $\hom_{C}(-, A)$ maps $X$ to $\hom_{\cat{C}}(X, A)$ and $f: Y \to X$ to $\hom_{\cat{C}}(f, A)(g) = g \circ f$.
+Finally, a bifunctor $\hom_{\cat{C}}(-, -)$ maps $X, Y$ to $\hom_{\cat{C}}(X, Y)$ and $f: A \to X, g: Y \to B$ to $\hom_{\cat{C}}(f, g)(h) = g \circ h \circ f$.
 
-it’s similar to [[profunctor]], but here for some category $C$ the mapping takes $(a, b)$ (a pair of objects from $C$) to $C(a, b)$ (their [[hom-set]]). so it is a [[functor]] from $C^{op} \times C$ to $Set$. just as we did in [[profunctor]], here we take a pair of morphisms and return a morphism that takes a morphism and composes with that two.
+## Properties
+- [[covariant hom-functor preserves limits]]

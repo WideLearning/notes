@@ -6,4 +6,9 @@ It is abot methods which are able to sample from complicated [[probability distr
 - [[Metropolis-Hastings algorithm]] for univariate distribution (though can be used for joint one too)
 - [[Gibbs sampling]] for [[joint distribution]].
 
+Or more sophisticated samplers:
+- No-U-turn sampler (e.g. in `Pyro`)
+- Affine-invariant ensemble sampler (e.g. in `emcee`)
+- Ensemble slice sampling (e.g. in `zeus`)
+
 Code example: [[simple Bayesian inference with MCMC]]

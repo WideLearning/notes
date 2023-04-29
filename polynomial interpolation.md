@@ -1,5 +1,5 @@
 # polynomial interpolation
-From [[numerical methods]]
+From [[interpolation methods]]
 $\physics$
 - [[Lagrange interpolation]]
 - [[Aitken interpolation]]

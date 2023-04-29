@@ -7,3 +7,4 @@ A [[self-adjoint operator]] $T \in \L(V)$ is positive semi-definite iff $\forall
 ## Properties
 - [[product of operator and adjoint is positive]]
 - [[square roots of positive operators]]
+- [[positive operator test]]

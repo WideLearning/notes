@@ -7,7 +7,7 @@
 - [[prior vs data]]
 - [[inference methods]]
 - [[inductive inference]]
-- [[abc trick]]
+- [[approximate Bayesian inference]]
 - [[sampling from a Gaussian process]]
 - [[Pyro]] (not finished)
 - [[Bayesianism vs frequentism]]

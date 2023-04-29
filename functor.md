@@ -12,14 +12,13 @@ A functor is a morphism in the [[category of small categories]]. It consists of 
 - Something like a functor but reversing morphisms is [[contravariant functor]].
 
 ## Examples
+- [[endofunctor]]
 - [[faithful functor]]
-- [[complete functor]]
+- [[full functor]]
 - [[essentially surjective functor]]
 - [[forgetful functor]]
-- [[reader functor]]
-- [[writer functor]]
-- [[profunctor]]
-- [[hom-functor]]
+- [[constant functor]]
+- [[profunctor]], [[hom-functor]]
 - [[presheaf]]
 - [[representation]]
 - [[bifunctor]]

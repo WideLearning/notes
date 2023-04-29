@@ -4,13 +4,12 @@ $\physics$
 ## Contents
 - [[Taylor series]]
 - [[floating point representation]]
-- [[Gaussian elimination]]
-- [[Cholesky decomposition]]
-- [[Newton’s method]], [[secant method]]
-- [[polynomial interpolation]]
-- [[spline interpolation]]
-- [[numerical differentiation]]
+- [[solving systems of linear equations]]
+- [[solving non-linear equations]]
+- [[interpolation methods]]
 - [[Richardson extrapolation]]
+- [[numerical differentiation]]
+- [[numerical integration]]
 
 ## Professor contact
 Dr. Stephan Juricke

@@ -4,8 +4,8 @@ $\physics$
 ## Topics
 - [[automata and computability theory]]
 - [[specifying method]]
-- [[Kolmogorov’s complexity]]
-- [[algorithmic probability]]
+- [[Kolmogorov’s complexity]], [[prefix Kolmorogov’s complexity]]
+- [[a priori probability]], [[algorithmic probability]]
 - [[Solomonoff’s induction]]
 
 ## Books

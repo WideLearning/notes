@@ -1,5 +1,5 @@
 # adjoint functor is unique
-From [[adjoint functors]]
+From [[adjunction]]
 $\physics$
 ## Statement
 1. If $F \dashv U, F' \dashv U$ then there is a [[natural isomorphism]] $F \cong F'$.
@@ -8,13 +8,21 @@ $\physics$
 ## Proof
 Enough to prove one, another is dual.
 
-2. By definition of [[adjoint functors]]:
-   $$\forall A \in \ob(\cat{C}), B \in \ob(\cat{D}). \hom_{\cat{C}}(A, UB) \cong \hom_{\cat{D}}(FA, B) \cong \hom_{\cat{C}}(A, U'B)$$
-Moreover, isomorphism $\varphi_{A, B}: \hom(A, UB) \to \hom(A, U'B)$ is natural in both arguments.
-Consider $\alpha_{v} = \varphi_{Uv, v}(\id_{Uv}) \in \hom(Uv, U'v)$. We have $\alpha^{-1}_{v} = \varphi^{-1}_{Uv, v}(\id_{Uu})$, so it is isomorphism.
+2. Because [[unit of adjunction is a universal morphism]] we have two universal morphisms: $\eta_{A}: A \to UFA$ and $\eta_{A}': A \to U'FA$. By definition, there is a unique morphism that decomposes second through the first, and vice versa, so there is an isomorphism between $UFA$ and $U'FA$.
 
-Let’s check naturality: $\forall f \in \hom_{\cat{D}}(v, u). \alpha_{u} \circ Uf = U'f \circ \alpha_{v}$.
-As in [[definition of adjoint through isomorphism]], we use naturality of $\varphi$  in both arguments.
+
+By definition of [[adjunction]]: $$\forall A \in \ob(\cat{C}), B \in \ob(\cat{D}). \hom_{\cat{C}}(A, UB) \cong \hom_{\cat{D}}(FA, B) \cong \hom_{\cat{C}}(A, U'B)$$
+Moreover, isomorphism $\varphi_{A, B}: \hom(A, UB) \to \hom(A, U'B)$ is natural in both arguments.
+Take $\alpha_{v} = \varphi_{Uv, v}(\id_{Uv}) \in \hom(Uv, U'v)$ and $\alpha_{v}^{-1} = \varphi_{Uv, v}^{-1}(\id_{Uv})$. Let’s see that they are indeed inverse of each other.
+What means naturality in the first argument? For arbitrary $f^{op}: B \to C$ (in opposite category):
+$$\varphi_{C, A} \circ \hom(f^{op}, UA) = \hom(f^{op}, U'A) \circ \varphi_{B, A}$$
+$$\forall h \in \hom(B, UA). \varphi(h \circ f) = \varphi(h) \circ f$$
+That’s what we need:
+$$\alpha \circ \alpha^{-1} = \varphi(\id) \circ \varphi^{-1}(\id) = \varphi(\id \circ \varphi^{-1}(\id)) = \id$$
+And the other identity, perhaps, follows from naturality of $\varphi^{-1}$ in the first argument.
+
+Now, for naturality we want to check: $\forall f \in \hom_{\cat{D}}(v, u). \alpha_{u} \circ Uf = U'f \circ \alpha_{v}$.
+As in [[definition of adjunction through commutative diagram]], we use naturality of $\varphi$ in both arguments.
 For the first argument we have the following commuting square:
 ```tikz
 \usepackage{tikz-cd}

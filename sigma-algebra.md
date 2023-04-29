@@ -10,5 +10,6 @@ In other words, $\Sigma \subset 2^{X}$ satisfies this properties iff:
 3. $\forall i \in \N: A_{i} \in \Sigma \implies \qty(\bigcap_{i \in N} A_{i}) \in \Sigma$
 (2 and 3 are equivalent by De Morgan’s laws)
 
-## Properties
-- [[measurable sets are a sigma-algebra]]
+## Examples
+- [[Borel sigma-algebra]]
+- [[Lebesgue measurable sets are a sigma-algebra]]

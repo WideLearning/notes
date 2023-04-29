@@ -2,4 +2,7 @@
 From [[category]]
 
 ## Definition
-A [[category]] where each pair of objects has its [[categorical product]].
+In general, it’s a category equipped with product-like [[bifunctor]].
+There are two versions:
+- [[strict monoidal category]]
+- [[relaxed monoidal category]]

@@ -1,8 +1,8 @@
 # simple approximation theorem
-From [[measurable function]], [[simple function]]
+From [[Lebesgue measurable function]], [[simple function]]
 $\physics$
 ## Statement
-A function $f: E \to \R$ on a [[measurable set]] $E$ is a [[measurable function]] iff there is a sequence of [[simple function|simple functions]] $\{ \varphi_{n} \}$ which [[converges pointwise]] on $E$ to $f$ and satisfies $\abs{\varphi_{n}} \leq \abs{f}$. For nonnegative $f$ there exists an increasing $\{ \varphi_{n} \}$.
+A function $f: E \to \R$ on a [[Lebesgue measurable set]] $E$ is a [[Lebesgue measurable function]] iff there is a sequence of [[simple function|simple functions]] $\{ \varphi_{n} \}$ which [[converges pointwise]] on $E$ to $f$ and satisfies $\abs{\varphi_{n}} \leq \abs{f}$. For nonnegative $f$ there exists an increasing $\{ \varphi_{n} \}$.
 
 ## Proof
 $\text{sequence} \implies \text{measurable}$:

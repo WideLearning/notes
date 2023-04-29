@@ -1,8 +1,8 @@
 # excision property
-From [[outer measure]]
+From [[Lebesgue measurable set]]
 $\physics$
 ## Statement
-Consider $A \subset B \subset \R$ and $A$ is a [[measurable set]] with finite measure, then:
+Consider $A \subset B \subset \R$ and $A$ is a [[Lebesgue measurable set]] with finite measure, then:
 $$m^{*}(B \setminus A) = m^{*}(B) - m^{*}(A)$$
 
 ## Proof

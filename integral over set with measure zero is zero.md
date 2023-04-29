@@ -2,7 +2,7 @@
 From [[Lebesgue integral]]
 $\physics$
 ## Statement
-Let $f: E \to \mathbb{R}$ be a [[measurable function]] and $m(E) = 0$. 
+Let $f: E \to \mathbb{R}$ be a [[Lebesgue measurable function]] and $m(E) = 0$. 
 $$\int_{E} f = 0$$
 ## Proof
 As $\int f = \int f_{+} - \int f_{-}$, it’s enough to show for $f_{+}$ and $f_{-}$, that is, we can assume $f \geq 0$.

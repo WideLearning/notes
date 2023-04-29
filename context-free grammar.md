@@ -4,7 +4,7 @@ $\physics$
 ## Definition
 A CFG is defined by:
 1. $V$: finite state, variables
-2. $\Sigma$: finite state disjoint from  $V$, terminals
+2. $\Sigma$: finite state disjoint from $V$, terminals
 3. $R$: [[relation]] on $V \times (V \cup \Sigma)^{*}$, rules
 4. $S \in V$: start variable
 

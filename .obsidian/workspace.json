@@ -11,11 +11,30 @@
             "id": "5a1ddfbfe9cc61bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "numerical methods.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a36e677d19bd91f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "numerical methods.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "numerical methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "numerical methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "numerical methods.md"
+              }
             }
           },
           {
@@ -148,34 +171,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a1ddfbfe9cc61bc",
+  "active": "a36e677d19bd91f4",
   "lastOpenFiles": [
-    "adjoint functors.md",
-    "measurable function.md",
-    "skeleton.md",
-    "Borel-Cantelli lemma.md",
-    "multitape Turing machine.md",
-    "set of finite measure as finite disjoint union of sets with small measure.md",
-    "dynamic programming methods.md",
-    "reader functor.md",
-    "regular expressions describe regular languages.md",
-    "FA and NFA are equivalent.md",
-    "expected value.md",
-    "equalizer is unique up to isomorphism.md",
-    "mapping reduction.md",
-    "generalized nondeterministic finite automaton.md",
-    "semisimple approximation lemma.md",
+    "interpolation methods.md",
+    "numerical methods.md",
+    "solving systems of linear equations.md",
+    "iterative approach for linear systems.md",
+    "successive over-relaxation.md",
+    "Gauss-Seidel iteration.md",
+    "convergence of Gaus-Seidel iteration.md",
+    "Jacobi iteration.md",
+    "Gershgorin circle theorem.md",
+    "convergence of iteration for linear systems.md",
+    "Richardson iteration.md",
+    "polynomial interpolation.md",
+    "interpolation error theorem.md",
     "spline interpolation.md",
-    "translation invariance of outer measure.md",
-    "integration of nonnegative measurable functions is linear and monotone.md",
-    "hom-functor.md",
-    "approximation by finite disjoint union of intervals.md",
-    "divided differences are invariant under reversal.md",
-    "Markov decision process.md",
-    "conditional invariance theorem.md",
-    "policy gradient theorem.md",
-    "continuous functions are measurable.md",
-    "excision property.md",
+    "B-spline.md",
+    "Bezier curve.md",
+    "Bezier-like curves for other distributions.md",
+    "de Casteljau algorithm.md",
+    "numerical integration.md",
+    "Simpson’s rule.md",
+    "Legendre polynomials.md",
+    "lemma about Gaussian quadrature error.md",
+    "Romberg’s method.md",
+    "trapezoidal rule.md",
+    "error of equidistant trapezoidal rule.md",
+    "numerical differentiation.md",
     "copy/Images/plugins.png",
     "copy/Images/multilayer_model.canvas",
     "copy/Images/counties.png",

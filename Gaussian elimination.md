@@ -1,5 +1,5 @@
 # Gaussian elimination
-From [[numerical methods]]
+From [[solving systems of linear equations]]
 $\physics$
 ## Algorithm
 We are solving system of linear equations $[A \mid b]$, which denotes $Ax = b$. 

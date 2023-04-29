@@ -17,6 +17,8 @@ $$E_{b}(\rho_{0:T-1}R_{t}) = E_{b}(\rho_{0:t-1}R_{t})$$
 Which follows from:
 $$\forall s. E_{b}(\rho_{t:T-1} \mid S_{t} = s) = 1$$
 $$E_{b}(\rho_{t:T-1} \mid S_{t} = s) = \sum\limits_{\text{paths from } s} \left(\frac{\prod \pi(A_{k} \mid S_{k})p(S_{k+1} \mid S_{k}, A_k)}{\prod b(A_{k} \mid S_{k})p(S_{k+1} \mid S_{k}, A_{k})}\prod b(A_{k} \mid S_{k})p(S_{k+1} \mid S_{k}, A_{k})\right) = 1$$
+## See also
+- [[per-decision importance sampling with control variates]] for the case where we have a baseline value closer to $\E_{b}(R_{t})$ than zero.
 
 ## Test implementation
 ```python

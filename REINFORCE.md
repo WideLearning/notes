@@ -8,7 +8,7 @@ Where $G_{t}$ is the expected return after $S_{t}, A_{t}$ (see [[Markov decision
 ## Proof
 According to [[policy gradient theorem]]:
 $$\nabla J(\theta) \propto \sum\limits_{s} \mu(s)\sum\limits_{a} q_{\pi}(s, a) \nabla \pi(a \mid s, \theta)$$
-But sum with weights taken from [[on-policy distribution]] is just expectation:
+But a sum with the weights taken from [[on-policy distribution]] is just expectation:
 $$\nabla J(\theta) \propto \mathbb{E}_{S_{t} \sim \pi}\left(\sum\limits_{a} q_{\pi}(S_{t}, a) \nabla \pi(a \mid S_{t}, \theta)\right)$$
 This is called “all-actions” method. We can simplify it even further (increasing variation, though) by importance sampling:
 $$\nabla J(\theta) \propto \mathbb{E}_{S_{t}, A_{t} \sim \pi}\left(\frac{1}{\pi(A_{t} \mid S_{t}, \theta)}q_{\pi}(S_{t}, A_{t}) \nabla \pi(A_{t} \mid S_{t}, \theta)\right)$$

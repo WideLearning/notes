@@ -1,8 +1,8 @@
 # initial object
-From [[basic definitions from category theory]], dual to [[terminal object]]
+From [[category theory]], dual to [[terminal object]]
 
 ## Definition
-An object $X$ is called _initial_ (or _universal_) if for every other object $Y$ there is a unique morphism $X \to Y$. Denoted by $0$.
+An object $X$ is called _initial_ (or _universal_) if for every other object $Y$ there is a unique morphism $X \to Y$. Denoted by $0$. And the unique morphism $0 \to X$ is denoted by $!_{X}$ (same as for [[terminal object]]).
 
 ## Properties
 - If it exists, it is unique up to isomorphism.

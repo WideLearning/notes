@@ -2,7 +2,7 @@
 From [[category theory]]
 
 ## Definition
-It is a way to define morphism between [[functor|functors]]. More precisely, for functors $F, G: C \to D$ it must specify for each element $x \in C$ a morphism in $D$ (note, that it must be already there, we don’t connect arbitrary objects) $\eta_x$ and also for every morphism $f: x \to y$ in $C$ the following square must commute:
+It is a way to define morphism between [[functor|functors]]. More precisely, for functors $F, G: \cat{C} \to \cat{D}$ it must specify for each element $x \in \cat{C}$ a morphism in $\cat{D}$ (note, that it must be already there, we don’t connect arbitrary objects) $\eta_x$ and also for every morphism $f: x \to y$ in $C$ the following square must commute:
 $$ \eta_{y}\circ F f = G f \circ \eta_{x}$$
 
 ```tikz
@@ -35,7 +35,9 @@ Note that [[functor]] can be considered as a special case, for example, `a -> Li
 
 ## Properties
 - I heard that this concept was one of the reasons to build category theory.
-- Can be composed with [[vertical composition]] or [[horizontal composition]].
+- [[vertical composition]]
+- [[horizontal composition]]
+- [[interchange law for natural transoformations]]
 - [[natural isomorphism]]
 - [[natural transformation for bifunctors]]
 - [[parametric polymorphic functions are natural transformations]]

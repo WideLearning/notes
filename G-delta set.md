@@ -1,5 +1,5 @@
 # G-delta set
-From [[measure theory]]
+From [[Borel sigma-algebra]]
 $\physics$
 ## Definition
 $G_{\delta}$ is a countable intersection of open sets.

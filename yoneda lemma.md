@@ -1,31 +1,82 @@
 # yoneda lemma
-from [[category theory]]
+From [[category theory]]
+$\physics$
+## Statement
+Consider $F: \cat{C}^{op} \to \cat{Set}$. There is a [[natural isomorphism]]:
+$$\hom_{\cat{Set}^{\cat{C}^{op}}}(\hom_{\cat{C}}(-_{2}, -_{1}), F) \cong F-_{1}$$
+Which means that for each $R \in \ob(\cat{C})$ there is a bijection:
+$$\hom_{\cat{Set}^{\cat{C}^{op}}}(\hom_{\cat{C}}(-, R), F) \cong FR$$
 
-### statement
-let $C$ be an arbitrary [[category]], $a$ – any of its objects, $F$ – a functor from $C$ to $Set$. the set of [[natural transformation|natural transformations]] from $C(a, -)$ to $F$ is isomorphic to $F a$:
-$$ Nat(C(a, -), F) \cong Fa $$(note the implication that there is at least one [[natural transformation]] from $C(a, -)$ to $F$ when $F a \ne \varnothing$).
+Or in dual version, for $F: \cat{C} \to \cat{Set}$, also natural in $R \in \ob(\cat{C})$:
+$$\hom_{\cat{Set}^{C}}(\hom_{\cat{C}}(R, -), F) \cong FR$$
 
-[[Haskell]] form (here instead of [[natural transformation]] we use polymorphic function, because [[parametric polymorphic functions are natural transformations]]): $$ (\forall x. (a \to x) \to F x )\cong F a $$
-### proof
-consider $f :: x \to y$ in $C$. there must be also $C(a, f) :: C(a, x) \to C(a, y)$ and $F f :: F x \to F y$ in $Set$, together with $\alpha_{x} :: C(a, x) \to F x$ and $\alpha_{y} :: C(a, y) \to F y$. they form a commuting square:
-$$ \alpha_{y} \circ C(a, f) = (F f) \circ \alpha_{x}$$
-consider it point-wise, at some $h \in C(a, x)$ (and remember that $C(a, f)h = f \circ h$):
-$$ \alpha_{y} (f \circ h) = (F f)(\alpha_{x} h)$$
-it turns out to be a very strong condition, it’s enough to consider $x = a$ and $h = id_{a}$:
-$$  \alpha_{y} f = (F f)(\alpha_{a} id_{a}) $$
-note that now $f$ has type $a \to y$ and thus is an element of $C(a, y)$. it means that for any $y$ we can completely define $\alpha_{y} :: C(a, y) \to F y$ by selecting appropriate $f$, all we need to know is $\alpha_{a} :: C(a, a) \to F a$, or actually, only it’s action on $id_{a}$, which is an arbitrary element of $F a$. so, once we select the value of $\alpha_{a}(id_{a})$ from $F a$, we know the whole $\alpha$. conversely, if we know the $\alpha$, we can evaluate it’s component for $a$ on $id_{a}$ and get a point from $F a$.
+## Proof
+Define a function $T: \hom(\hom(-, R), F) \to FR$ as:
+$$T(\alpha) = \alpha_{R}(\id_{R})$$
+And another, $S: FR \to \hom(\hom(-, R), F)$. $S(x)_{B}: \hom(B, R) \to FB$ is defined as (remember that $F$ is contravariant):
+$$(S(x)_{B})(f) = (Ff)(x)$$
+The $S(x)$ from above is a [[natural transformation]]:
+$$(S(x)_{B}) \circ \hom(f, R) = Ff \circ (S(x)_{A})$$
+That is, for arbitrary $h: A \to R$:
+$$S(x)_{B}(h \circ f) = (Ff)(S(x)_{A}(h))$$
+$$(F(h \circ f))(x) = (Ff)((Fh)(x))$$
+$$F(h \circ f) = Ff \circ Fh$$
+Which is how composition is preserved under [[contravariant functor]].
 
-### naturality
- $$  Nat(C(a, -), F) \cong Fa $$
-it turns out that this isomorphism between sets can be seen as a [[natural isomorphism]]. to do so let’s see both parts as a functors from $[C, Set] \times C$ to $Set$ ($F$ is from $[C, Set]$ and $a$ is obviously from $C$). to show that they are indeed functors let’s consider how they act on morphisms. 
- 
-because $[C, Set] \times C$ is a product category (considering product as a [[bifunctor]]), its morphisms are actually the pairs of morphisms. so a morphism $(F, a) \to (G, b)$  is a pair of morphisms $(\Phi, f)$ (where $\Phi$ can be sees as [[natural transformation]], because it’s a morphism between functors). 
- 
-so we can lift $(\Phi, f) :: (F, a) \to (G, b)$ to $(G f) \circ \Phi_{a} :: Fa \to Gb$. because $\Phi$ is [[natural transformation]] it’s the same as $\Phi_{b} \circ (F f)$. it finishes the case for the right part (eval functor).
+Now, $T$ and $S$ are mutually inverse:
+$$T(S(x)) = S(x)_{R}(\id_{R}) = F(\id_{R})x = x$$
+$$S(T(\alpha))(f) = (Ff)(T(\alpha)) = (Ff)(\alpha_{R}(\id_{R})) = \alpha_{\dom(f)}(\id_{R} \circ f) = \alpha(f)$$
+Where the last equality is from naturality of $A$, as in $S(x)_{B}(h \circ f) = (Ff)(S(x)_{A}(h))$ above.
 
-now for the left. we know about $F, a, G, b, \Phi, f$, also are given $\alpha \in Nat(C(a, -), F)$ and need to produce $\beta \in Nat(C(b, -), G)$. we can build it by [[vertical composition]] as $\beta = \delta \circ \alpha \circ \gamma$ where $\gamma \in Nat(C(b, -), C(a, -))$ and $\delta \in Nat(F, G)$. but by [[yoneda embedding]] we can get $\gamma$ from $C(a, b)$ which is just $f$, and $\delta$ is simply $\Phi$.
+Finally, it’s enough to check naturality of only one of $T$ or $S$, because their corresponding components are mutually inverse and it is easy to build the commuting square for one from another. Let’s check for $S$.
+$$\forall f: B \to A. S_{B} \circ Ff = \hom(\hom(-, f), F) \circ S_{A}$$
+First, how works the functor on the right?
+1. The outer functor $\hom(-, F)$ works on morphisms (natural transformations) like this:
+$$\begin{split}
+&\alpha: H \to G \implies \hom(\alpha, F): \hom(G, F) \to \hom(H, F)\\
+&\hom(\alpha, F)(\beta) = \beta \circ \alpha \\
+\end{split}$$
+2. For clarity, denote $TR = \hom(-, R)$:
+$$\begin{split}
+&f: A \to B \implies Tf: \hom(-, A) \to \hom(-, B)\\
+&X \in \ob(\cat{C}) \implies (Tf)_{X}: \hom(X, A) \to \hom(X, B)\\
+&\forall h: X \to A. (Tf)_{X}(h) = f \circ h\\
+\end{split}$$
+3. Together, $\hom(T-, F)$ works on morphisms like this:
+$$\begin{split}
+&f: B \to A \implies \hom(Tf, F): \hom(\hom(-, A), F) \to \hom(\hom(-, B), F)\\
+&\alpha: \hom(-, A) \to F \implies \hom(Tf, F)(\alpha): \hom(-, B) \to F \\
+&X \in \ob(\cat{C}) \implies (\hom(Tf, F)(\alpha))_{X} = (\hom(Tf, F)(\alpha))_{X}: \hom(X, B) \to FX\\
+&\forall h: X \to B. (\hom(Tf, F)(\alpha))_{X}(h) = (\alpha \circ (Tf))_{X}(h) = \alpha_{X}((Tf)_{X}(h)) = \alpha_{X}(f \circ h)
+\end{split}$$
+Now let’s return to checking naturality. For arbitrary $t \in FA$:
+$$S_{B}((Ff)t) = \hom(Tf, F)(S_{A}(t))$$
+For $X \in \ob(\cat{C})$:
+$$S_{B}((Ff)t)_{X} = (\hom(Tf, F)(S_{A}(t)))_{X}$$
+(Just to check, type of both parts is now $\hom(X, B) \to FX$)
+For $h: X \to B$:
+$$S_{B}((Ff)t)_{X}(h) = (\hom(Tf, F)(S_{A}(t)))_{X}(h)$$
+$$(Fh)((Ff)t) = (S_{A}(t)_{X})(f \circ h)$$
+$$(Fh)((Ff)t) = (F(f \circ h))(t)$$
+$$Fh \circ Ff = F (f \circ h)$$
+Again because $F$ is [[contravariant functor]].
 
-the component of natural transformation mapping from $Nat(C(a, -), F)$ to $Fa$: it takes $\alpha$ which is a natural transformation between $C(a, -)$ and $F$, so it maps $C(a, x)$ to $F x$ for every $x \in C$. then we can just take its component at $a$ and apply it to $id_{a}$, because $\alpha_{a} id_{a} \in F a$ (and it’s what we used in the proof of this lemma).
 
-## see also
+### Proof
+Naturality of $\alpha$ gives us the following commuting square:
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}[row sep=large] R && {\hom(R, R)} && FR \\ \\ X && {\hom(R, X)} && FX \arrow["Ff"{description}, from=1-5, to=3-5] \arrow["{\hom(R, f)}"{description}, from=1-3, to=3-3] \arrow["{\alpha_{R}}"{description}, from=1-3, to=1-5] \arrow["{\alpha_{X}}"{description}, from=3-3, to=3-5] \arrow["f"{description}, from=1-1, to=3-1] \end{tikzcd}
+\end{document}
+```
+Following $\id_{R}$ through it we get:
+$$\alpha_{X}(\hom(R, f)(\id_{R})) = (Ff)(\alpha_{R}(\id_{R}))$$
+$$\alpha_{X}(f) = (Ff)(\alpha_{R}(\id_{R}))$$
+So $\alpha_{X}$ is completely determined by $\alpha_{R}(\id_{R})$ (namely, $\alpha_{X} = \hom(\hom(R, R), F-)$). And the other direction is trivial, because from $\alpha$ we can get $\alpha_{R}(\id_{R})$ by substitution.
+
+## Properties
+- [[yoneda map is natural]]
+- [[Haskell]] form (here instead of [[natural transformation]] we use polymorphic function, because [[parametric polymorphic functions are natural transformations]]): $$ (\forall x. (a \to x) \to F x )\cong F a $$
+## See also
 - [[yoneda embedding]]

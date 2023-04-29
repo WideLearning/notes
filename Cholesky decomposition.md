@@ -1,5 +1,5 @@
 # Cholesky decomposition
-From [[numerical methods]] and [[linear algebra]]
+From [[solving systems of linear equations]] and [[linear algebra]]
 $\physics$
 ## Statement (for $\R$)
 If $A$ is [[positive operator]] (and [[self-adjoint operator]]), it can be decomposed $A = LDL^{T}$, where $L$ is lower-triangular with ones on the main diagonal and $D$ is diagonal with positive entries. As corollary, we also have $A = CC^{T}, C = L\sqrt{D}$.

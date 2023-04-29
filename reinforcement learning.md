@@ -12,16 +12,17 @@ Reinforcement learning studies how to learn from interaction with environment. A
 - [[dynamic programming methods]]
 - [[Monte Carlo methods]]
 - [[temporal-difference learning]]
+- [[model-based methods]]
+- [[function approximation]]
 - [[on-policy distribution]]
 - [[policy gradient methods]]
-
 - [[gymnasium]]
 
 ## TODO
-- [[discounting-aware importance sampling]]
-- https://arxiv.org/pdf/1606.02647v2.pdf
-- https://arxiv.org/abs/1506.02438
-- https://arxiv.org/abs/1707.06347
+- try [[double Q-learning]] with $Q_{1} \leftarrow \dots + Q_{1}(\arg\max Q_{2})$ instead of $Q_{1} \leftarrow \dots + Q_{2}(\arg\max Q_{1})$
+- https://arxiv.org/pdf/1606.02647v2.pdf: Retrace($\lambda$)
+- https://arxiv.org/abs/1506.02438: Generalized Advantage Estimation
+- https://arxiv.org/abs/1707.06347: Proximal Policy Optimization
 
 ## Books
 - Richard Sutton, Andrew Barto, _Reinforcement Learning: An Introduction (2nd edition)_

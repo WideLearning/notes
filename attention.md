@@ -1,5 +1,5 @@
 # attention
-From [[deep learning]] and [[nlp]]
+From [[deep learning]] and [[NLP]]
 
 Attention is a powerful mechanism which resembles support vector machines.
 Usually, there is a sequence of keys $k_{n} \in \mathbb{R}^{d_{in}}$, a sequence of values $v_{n} \in \mathbb{R}^{d_{out}}$ and a query $q \in \mathbb{R}^{d_{in}}$. Also we need a function $S: \mathbb{R}^{d_{in}} \times \mathbb{R}^{d_{in}} \to \mathbb{R}$ that will calculate similarities between the keys and queries. Then the attention is defined as:

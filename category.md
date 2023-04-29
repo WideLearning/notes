@@ -10,14 +10,14 @@ A category is a collection of objects, collection of morphisms and a composition
 
 ## Potential properties
 - [[discrete category]]
-- [[preorder]], [[poset]]
+- [[preorder]], [[partial order]]
 - [[skeleton]]
 - [[small category]], [[locally small category]], [[large category]]
-- [[monoidal category]]
 - [[caresian category]], [[cartesian closed category]]
 - [[balanced category]]
 - [[subcategory]]
 - [[product category]]
+- [[monoidal category]]
 - [[2-category]]
 
 ## Special cases and examples

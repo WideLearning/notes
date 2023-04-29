@@ -1,16 +1,9 @@
 # representation
-from [[functor]]
+From [[functor]]
+$\physics$
+## Definition
+For a [[locally small category]] $\cat{C}$, a representation of a [[functor]] $F: \cat{C} \to \cat{Set}$ is a pair $(R, \alpha)$ such that $\alpha: \hom_{\cat{C}}(R, -) \to F$ is a [[natural isomorphism]]. $R$ is called the representing object and the functor $F$ itself is called representable in such case.
 
-it’s a functor with a [[natural isomorphism]] to $\hom(a, -)$ for some $a$ ([[hom-functor]], $a \in C$). it maps objects of $C$ to sets and morphisms to functions.
-
-actually, there is a [[natural transformation]] from $C(a, -)$ to any such functor, but not always back.
-
-such functors can be thought of as memoizations of functions:
-``` haskell
-class Representable f where
-	type Rep f :: *
-	tabulate :: (Rep f -> x) -> f x
-	index :: f x -> Rep f -> x
-```
-
-because (as [[exponential]]) $C(a, x) = x^a$, $C(a, -) = -^{a}= F$ where $F$ is representable functor. so, in some sense, $a = \log_{-} F$. (what is $\log F$ and even more $\log_{-} F$ is a good question, it’s just a fun formal trick). 
+## Properties
+- There is a [[natural transformation]] from $\hom(R, -)$ to any such functor, but it might not be an isomorphism.
+- [[lemma about representations]]

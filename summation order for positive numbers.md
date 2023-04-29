@@ -1,5 +1,5 @@
 # summation order for positive numbers
-From [[measure theory]]
+From [[real analysis]]
 $\physics$
 ## Statement
 It doesn’t matter in what order to sum positive numbers from a countable set.
