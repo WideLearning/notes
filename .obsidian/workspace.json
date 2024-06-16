@@ -65,6 +65,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "ff209ff9b01ecad1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -147,14 +155,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "5a1ddfbfe9cc61bc",
